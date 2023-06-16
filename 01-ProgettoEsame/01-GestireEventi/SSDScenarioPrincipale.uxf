@@ -4,7 +4,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>414</x>
+      <x>450</x>
       <y>99</y>
       <w>90</w>
       <h>99</h>
@@ -15,18 +15,18 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>918</x>
+      <x>954</x>
       <y>153</y>
       <w>27</w>
-      <h>999</h>
+      <h>864</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1090.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;940.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>189</y>
       <w>495</w>
       <h>36</h>
@@ -38,7 +38,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>216</y>
       <w>495</w>
       <h>36</h>
@@ -50,18 +50,18 @@ evento registrato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>180</y>
       <w>27</w>
-      <h>972</h>
+      <h>837</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;910.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
+      <x>531</x>
       <y>0</y>
       <w>396</w>
       <h>54</h>
@@ -78,7 +78,7 @@ bg=#F9FF47</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
+      <x>531</x>
       <y>54</y>
       <w>396</w>
       <h>36</h>
@@ -94,7 +94,7 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>243</y>
       <w>495</w>
       <h>36</h>
@@ -106,19 +106,19 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>270</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-informazioni registrate / ok</panel_attributes>
+informazioni registrate</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>297</y>
       <w>495</w>
       <h>36</h>
@@ -130,7 +130,7 @@ informazioni registrate / ok</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
+      <x>486</x>
       <y>333</y>
       <w>495</w>
       <h>36</h>
@@ -142,8 +142,8 @@ chef registrato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>540</y>
+      <x>486</x>
+      <y>486</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -154,8 +154,8 @@ chef registrato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>567</y>
+      <x>486</x>
+      <y>513</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -167,8 +167,8 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>765</y>
+      <x>486</x>
+      <y>666</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -179,8 +179,8 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>792</y>
+      <x>486</x>
+      <y>693</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -192,8 +192,8 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>990</y>
+      <x>486</x>
+      <y>837</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -204,20 +204,20 @@ layer=3</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>1017</y>
+      <x>486</x>
+      <y>864</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-menu approvato / evento "in corso"</panel_attributes>
+menu approvato AND stato dell'evento "in corso"</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>1062</y>
+      <x>486</x>
+      <y>909</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -228,22 +228,22 @@ menu approvato / evento "in corso"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>1089</y>
+      <x>486</x>
+      <y>936</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-note registrate / ok</panel_attributes>
+note registrate</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>513</y>
+      <x>396</x>
+      <y>459</y>
       <w>648</w>
-      <h>216</h>
+      <h>171</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -253,10 +253,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>765</y>
+      <x>405</x>
+      <y>666</y>
       <w>621</w>
-      <h>180</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>OPT
 fg=#128C86
@@ -267,8 +267,8 @@ layer=1</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>414</x>
-      <y>990</y>
+      <x>450</x>
+      <y>837</y>
       <w>540</w>
       <h>63</h>
     </coordinates>
@@ -280,10 +280,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>333</x>
-      <y>486</y>
+      <x>369</x>
+      <y>432</y>
       <w>693</w>
-      <h>495</h>
+      <h>396</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -293,10 +293,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>378</x>
-      <y>540</y>
+      <x>414</x>
+      <y>486</y>
       <w>612</w>
-      <h>180</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -307,8 +307,8 @@ layer=1</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>414</x>
-      <y>1062</y>
+      <x>450</x>
+      <y>909</y>
       <w>540</w>
       <h>63</h>
     </coordinates>
@@ -320,7 +320,7 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>882</x>
+      <x>918</x>
       <y>117</y>
       <w>99</w>
       <h>45</h>
@@ -331,10 +331,10 @@ bg=#B8E0E0</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>387</x>
+      <x>423</x>
       <y>324</y>
       <w>612</w>
-      <h>144</h>
+      <h>81</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -348,8 +348,8 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>387</y>
+      <x>486</x>
+      <y>369</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -359,58 +359,12 @@ fg=red</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>918</x>
-      <y>396</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=termination
-fg=red
-lw=2
-layer=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>405</x>
-      <y>378</y>
-      <w>567</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
--.
-layer=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>423</y>
-      <w>495</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-3.1a.1 errore chef non disponibile
-fg=red
-layer=2</panel_attributes>
-    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>342</x>
+      <x>378</x>
       <y>297</y>
       <w>684</w>
-      <h>180</h>
+      <h>126</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -420,10 +374,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>396</x>
-      <y>567</y>
+      <x>432</x>
+      <y>513</y>
       <w>576</w>
-      <h>144</h>
+      <h>81</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -435,28 +389,10 @@ layer=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>414</x>
-      <y>621</y>
-      <w>540</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
--.
-layer=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>630</y>
+      <x>486</x>
+      <y>558</y>
       <w>495</w>
       <h>36</h>
     </coordinates>
@@ -467,40 +403,12 @@ layer=4</panel_attributes>
     <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>666</y>
-      <w>495</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-4.1a.1 errore personale non disponibile
-fg=red
-layer=4</panel_attributes>
-    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>918</x>
-      <y>639</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=termination
-fg=red
-lw=2
-layer=4</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>396</x>
-      <y>792</y>
+      <x>432</x>
+      <y>693</y>
       <w>576</w>
-      <h>144</h>
+      <h>81</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -512,72 +420,26 @@ layer=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>423</x>
-      <y>846</y>
-      <w>540</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>ALT
-fg=#761C8C
-bg=#e7bfff
-lw=2
---
-
--.
-layer=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>450</x>
-      <y>855</y>
-      <w>495</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-5.1a.1 errore cuoco non disponibile
-fg=red
-layer=4</panel_attributes>
-    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>891</y>
-      <w>495</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-5.1a.1 errore cuoco non disponibile
-fg=red
-layer=4</panel_attributes>
-    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>918</x>
-      <y>864</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=termination
-fg=red
-lw=2
-layer=4</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>342</x>
+      <x>486</x>
       <y>738</y>
+      <w>495</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+5.1a.1 errore cuoco non disponibile
+fg=red
+layer=4</panel_attributes>
+    <additional_attributes>10.0;20.0;530.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>378</x>
+      <y>639</y>
       <w>675</w>
-      <h>225</h>
+      <h>171</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
