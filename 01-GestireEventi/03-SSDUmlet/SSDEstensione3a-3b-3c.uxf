@@ -209,7 +209,7 @@ lw=2
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-3a.1 eliminaServizio(unServizio)
+3a.1 eliminaServizio(servizio)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -279,7 +279,7 @@ layer=2</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-3b.1 annullaServizio(unServizio)
+3b.1 annullaServizio(servizio)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -305,7 +305,7 @@ fg=#9E1C8C</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-3c.1 modificaInformazioniServizio(fasciaOraria?, sede?)
+3c.1 modificaInformazioniServizio(servizio, fasciaOraria?, sede?)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -345,7 +345,7 @@ layer=3</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-4.assegnaChef(nome)
+4.assegnaChef(chef)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -371,7 +371,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-5.assegnaRuoliPersonale(nome, ruolo)
+5.assegnaRuoliPersonale(nome, ruolo, personale, servizio, turno)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -397,7 +397,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-6.assegnaCuoco(nome)
+6.assegnaCuoco(cuoco, turno, servizio)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -423,7 +423,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-7.approvaMenu(nome)
+7.approvaMenu(menu)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>

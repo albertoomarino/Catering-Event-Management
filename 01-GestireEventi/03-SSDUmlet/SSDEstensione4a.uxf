@@ -124,7 +124,7 @@ informazioni registrate</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-4.assegnaChef(nome)</panel_attributes>
+4.assegnaChef(chef)</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -148,7 +148,7 @@ chef registrato</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-5.assegnaRuoliPersonale(nome, ruolo)
+5.assegnaRuoliPersonale(nome, ruolo, personale, servizio, turno)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -174,7 +174,7 @@ fg=GRAY</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-6.assegnaCuoco(nome)
+6.assegnaCuoco(cuoco, turno, servizio)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -200,7 +200,7 @@ fg=GRAY</panel_attributes>
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-7.approvaMenu(nome)
+7.approvaMenu(menu)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -355,7 +355,7 @@ lw=2
       <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-4a.1 modificaChef(unoChef)
+4a.1 modificaChef(chef)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>

@@ -123,7 +123,7 @@ informazioni registrate</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-4.assegnaChef(nome)
+4.assegnaChef(chef)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -149,7 +149,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-5.assegnaRuoliPersonale(nome, ruolo)
+5.assegnaRuoliPersonale(nome, ruolo, personale, servizio, turno)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -175,7 +175,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-6.assegnaCuoco(nome)
+6.assegnaCuoco(cuoco, turno, servizio)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -201,7 +201,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-7.approvaMenu(nome)
+7.approvaMenu(menu)
 fg=GRAY</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
@@ -338,7 +338,7 @@ fg=GRAY</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-1c.1 annullaEvento(unEvento?)
+1c.1 annullaEvento(evento)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>530.0;20.0;10.0;20.0</additional_attributes>
   </element>
