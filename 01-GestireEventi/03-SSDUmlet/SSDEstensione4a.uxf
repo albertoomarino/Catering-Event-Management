@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>9</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>360</x>
-      <y>99</y>
-      <w>90</w>
-      <h>99</h>
+      <x>320</x>
+      <y>110</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Organizzatore</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>873</x>
-      <y>153</y>
-      <w>27</w>
-      <h>891</h>
+      <x>890</x>
+      <y>170</y>
+      <w>30</w>
+      <h>990</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;970.0</additional_attributes>
@@ -26,10 +26,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>189</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>210</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 1.creaSchedaEvento(data, numeroPartecipanti)</panel_attributes>
@@ -38,10 +38,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>216</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>240</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 evento registrato</panel_attributes>
@@ -50,10 +50,10 @@ evento registrato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>180</y>
-      <w>27</w>
-      <h>864</h>
+      <x>370</x>
+      <y>200</y>
+      <w>30</w>
+      <h>960</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;940.0</additional_attributes>
@@ -61,10 +61,10 @@ evento registrato</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
+      <x>420</x>
       <y>0</y>
-      <w>396</w>
-      <h>54</h>
+      <w>440</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
@@ -78,10 +78,10 @@ bg=#F9FF47</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>54</y>
-      <w>396</w>
-      <h>36</h>
+      <x>420</x>
+      <y>60</y>
+      <w>440</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>valign=center
 halign=center
@@ -94,10 +94,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>243</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>270</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 2.aggiungiInformazioni(durata, luogo, numServizi, tipoServizio, noteTipologia?)</panel_attributes>
@@ -106,10 +106,10 @@ fontsize=18</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>270</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>300</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 informazioni registrate</panel_attributes>
@@ -118,10 +118,10 @@ informazioni registrate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>423</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>470</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 4.assegnaChef(chef)</panel_attributes>
@@ -130,10 +130,10 @@ informazioni registrate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>450</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>500</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 chef registrato</panel_attributes>
@@ -142,10 +142,10 @@ chef registrato</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>693</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>770</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 5.assegnaRuoliPersonale(nome, ruolo, personale, servizio, turno)
@@ -155,10 +155,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>720</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>800</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 personale registrato
@@ -168,10 +168,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>783</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>870</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 6.assegnaCuoco(cuoco, turno, servizio)
@@ -181,10 +181,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>810</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>900</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 cuoco registrato
@@ -194,10 +194,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>882</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>980</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 7.approvaMenu(menu)
@@ -207,10 +207,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>909</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>1010</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 menu approvato AND stato dell'evento "in corso"
@@ -220,10 +220,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>954</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>1060</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 8.segnaNoteTerminali(note)
@@ -233,10 +233,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>981</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>1090</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 note registrate
@@ -246,10 +246,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>342</x>
-      <y>666</y>
-      <w>594</w>
-      <h>108</h>
+      <x>300</x>
+      <y>740</y>
+      <w>660</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -258,10 +258,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>783</y>
-      <w>540</w>
-      <h>63</h>
+      <x>330</x>
+      <y>870</y>
+      <w>600</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>OPT
 layer=1
@@ -271,10 +271,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>882</y>
-      <w>540</w>
-      <h>63</h>
+      <x>330</x>
+      <y>980</y>
+      <w>600</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -283,10 +283,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>639</y>
-      <w>639</w>
-      <h>225</h>
+      <x>280</x>
+      <y>710</y>
+      <w>710</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=GRAY</panel_attributes>
@@ -295,10 +295,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>360</x>
-      <y>693</y>
-      <w>549</w>
-      <h>72</h>
+      <x>320</x>
+      <y>770</y>
+      <w>610</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>LOOP
 layer=1
@@ -308,10 +308,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>369</x>
-      <y>954</y>
-      <w>540</w>
-      <h>63</h>
+      <x>330</x>
+      <y>1060</y>
+      <w>600</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -320,10 +320,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>837</x>
-      <y>117</y>
-      <w>99</w>
-      <h>45</h>
+      <x>850</x>
+      <y>130</y>
+      <w>110</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>System</panel_attributes>
     <additional_attributes/>
@@ -331,10 +331,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>324</x>
-      <y>423</y>
-      <w>639</w>
-      <h>189</h>
+      <x>280</x>
+      <y>470</y>
+      <w>710</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
@@ -349,10 +349,10 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>486</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>540</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 4a.1 modificaChef(chef)
@@ -362,10 +362,10 @@ fg=#9E1C8C</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>522</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>580</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok
@@ -375,10 +375,10 @@ fg=#9E1C8C</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>351</x>
-      <y>513</y>
-      <w>585</w>
-      <h>81</h>
+      <x>310</x>
+      <y>570</y>
+      <w>650</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>ALT
 bg=#ffaaaa
@@ -392,10 +392,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>558</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>620</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 4a.1a.1 errore chef non disponibile
@@ -406,10 +406,10 @@ layer=4</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>288</x>
-      <y>396</y>
-      <w>702</w>
-      <h>234</h>
+      <x>240</x>
+      <y>440</y>
+      <w>780</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue
@@ -419,10 +419,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>315</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>350</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 3.creaServizio(fasciaOraria, sede)</panel_attributes>
@@ -431,10 +431,10 @@ bg=#8CB4FF</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
-      <y>342</y>
-      <w>495</w>
-      <h>36</h>
+      <x>370</x>
+      <y>380</y>
+      <w>550</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 servizio registrato</panel_attributes>
@@ -443,10 +443,10 @@ servizio registrato</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>342</x>
-      <y>306</y>
-      <w>594</w>
-      <h>81</h>
+      <x>300</x>
+      <y>340</y>
+      <w>660</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=blue

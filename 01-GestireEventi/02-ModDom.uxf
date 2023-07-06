@@ -87,7 +87,7 @@ fg=GRAY</panel_attributes>
       <w>232</w>
       <h>136</h>
     </coordinates>
-    <panel_attributes>(Istanza) evento
+    <panel_attributes>Evento
 --
 stato: {creato, in corso, annullato, terminato}
 data: testo
@@ -918,7 +918,7 @@ m2=1..n
 è proprietario di v
 
        
-fg=RED</panel_attributes>
+fg=BLACK</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;400.0</additional_attributes>
   </element>
   <element>
