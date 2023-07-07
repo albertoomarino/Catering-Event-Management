@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>7</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>147</x>
-      <y>105</y>
-      <w>21</w>
-      <h>812</h>
+      <x>120</x>
+      <y>88</y>
+      <w>24</w>
+      <h>864</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>133</x>
-      <y>63</y>
-      <w>42</w>
-      <h>77</h>
+      <x>104</x>
+      <y>40</y>
+      <w>48</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -27,9 +27,9 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>336</x>
-      <y>77</y>
-      <w>203</w>
-      <h>35</h>
+      <y>56</y>
+      <w>232</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>eventMgr:
 EventManager</panel_attributes>
@@ -38,34 +38,34 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>434</x>
-      <y>105</y>
-      <w>21</w>
-      <h>812</h>
+      <x>448</x>
+      <y>88</y>
+      <w>24</w>
+      <h>864</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>147</x>
-      <y>133</y>
-      <w>301</w>
-      <h>35</h>
+      <x>120</x>
+      <y>120</y>
+      <w>344</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 changeInformation(duration?, location?, 
-numServices?, typeServices?, notesTipology?)</panel_attributes>
+numServices?, serviceType?, typologyNotes?)</panel_attributes>
     <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>434</x>
-      <y>140</y>
-      <w>14</w>
-      <h>686</h>
+      <x>448</x>
+      <y>128</y>
+      <w>16</w>
+      <h>760</h>
     </coordinates>
     <panel_attributes>
 layer=1</panel_attributes>
@@ -74,22 +74,22 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>623</y>
-      <w>182</w>
-      <h>42</h>
+      <x>456</x>
+      <y>680</y>
+      <w>256</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
-notifyInformationModify(ev)</panel_attributes>
+notifyInformationModify(currentEvent)</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0;70.0;40.0;20.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>441</x>
-      <y>651</y>
-      <w>14</w>
-      <h>140</h>
+      <x>456</x>
+      <y>712</y>
+      <w>16</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -97,10 +97,10 @@ notifyInformationModify(ev)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>343</x>
-      <y>700</y>
-      <w>707</w>
-      <h>63</h>
+      <x>344</x>
+      <y>768</y>
+      <w>808</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>for each
 er in receivers
@@ -110,23 +110,23 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>448</x>
-      <y>728</y>
-      <w>462</w>
-      <h>35</h>
+      <x>464</x>
+      <y>800</y>
+      <w>528</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-updateInformationModify(ev)
+updateInformationModify(currentEvent)
 </panel_attributes>
     <additional_attributes>640.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>896</x>
-      <y>742</y>
-      <w>14</w>
-      <h>14</h>
+      <x>976</x>
+      <y>816</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -135,13 +135,13 @@ updateInformationModify(ev)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>840</x>
-      <y>77</y>
-      <w>133</w>
-      <h>35</h>
+      <x>912</x>
+      <y>56</y>
+      <w>152</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>er:
-EventReceivers
+EventReceiver
 
 </panel_attributes>
     <additional_attributes/>
@@ -149,71 +149,71 @@ EventReceivers
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
-      <y>105</y>
-      <w>21</w>
-      <h>812</h>
+      <x>976</x>
+      <y>88</y>
+      <w>24</w>
+      <h>864</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>147</x>
-      <y>791</y>
-      <w>301</w>
-      <h>28</h>
+      <x>120</x>
+      <y>872</y>
+      <w>344</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-ev</panel_attributes>
+currentEvent</panel_attributes>
     <additional_attributes>10.0;20.0;410.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>567</x>
-      <y>77</y>
-      <w>196</w>
-      <h>35</h>
+      <x>600</x>
+      <y>56</y>
+      <w>224</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>ev: 
+    <panel_attributes>eventMgr.currentEvent: 
 Event</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>658</x>
-      <y>105</y>
-      <w>21</w>
-      <h>763</h>
+      <x>704</x>
+      <y>88</y>
+      <w>24</w>
+      <h>864</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;1070.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;1060.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>182</y>
-      <w>231</w>
-      <h>42</h>
+      <x>456</x>
+      <y>176</y>
+      <w>264</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 modifyInformation(duration?, location?, 
-numServices?, typeServices?, 
-notesTipology?)</panel_attributes>
+numServices?, serviceType?, 
+typologyNotes?)</panel_attributes>
     <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>658</x>
-      <y>189</y>
-      <w>14</w>
-      <h>616</h>
+      <x>704</x>
+      <y>184</y>
+      <w>16</w>
+      <h>472</h>
     </coordinates>
     <panel_attributes>
 layer=1</panel_attributes>
@@ -222,10 +222,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>567</x>
-      <y>238</y>
-      <w>252</w>
-      <h>63</h>
+      <x>600</x>
+      <y>240</y>
+      <w>288</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>opt 
 
@@ -238,10 +238,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>245</y>
-      <w>154</w>
-      <h>49</h>
+      <x>712</x>
+      <y>248</y>
+      <w>176</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.duration=duration</panel_attributes>
@@ -250,10 +250,10 @@ this.duration=duration</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>567</x>
-      <y>308</y>
-      <w>252</w>
-      <h>63</h>
+      <x>600</x>
+      <y>320</y>
+      <w>288</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>opt 
 
@@ -266,10 +266,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>315</y>
-      <w>154</w>
-      <h>49</h>
+      <x>712</x>
+      <y>328</y>
+      <w>176</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.location=location</panel_attributes>
@@ -278,10 +278,10 @@ this.location=location</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>567</x>
-      <y>378</y>
-      <w>301</w>
-      <h>63</h>
+      <x>600</x>
+      <y>400</y>
+      <w>344</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>opt 
 
@@ -294,10 +294,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>385</y>
-      <w>196</w>
-      <h>49</h>
+      <x>712</x>
+      <y>408</y>
+      <w>224</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.numServices=numServices</panel_attributes>
@@ -306,14 +306,14 @@ this.numServices=numServices</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>567</x>
-      <y>448</y>
-      <w>301</w>
-      <h>63</h>
+      <x>600</x>
+      <y>480</y>
+      <w>344</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>opt 
 
-[typeServices != null]
+[serviceType != null]
 --
 fontsize=11
 </panel_attributes>
@@ -322,26 +322,26 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>455</y>
-      <w>196</w>
-      <h>49</h>
+      <x>712</x>
+      <y>488</y>
+      <w>216</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-this.typeServices=typeServices</panel_attributes>
+this.serviceType=serviceType</panel_attributes>
     <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>567</x>
-      <y>518</y>
-      <w>301</w>
-      <h>63</h>
+      <x>600</x>
+      <y>560</y>
+      <w>344</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>opt 
 
-[notesTipology != null]
+[typologyNotes != null]
 --
 fontsize=11
 </panel_attributes>
@@ -350,34 +350,34 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>665</x>
-      <y>525</y>
-      <w>210</w>
-      <h>49</h>
+      <x>712</x>
+      <y>568</y>
+      <w>240</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-this.notesTipology=notesTipology</panel_attributes>
+this.typologyNotes=typologyNotes</panel_attributes>
     <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>441</x>
-      <y>588</y>
-      <w>231</w>
-      <h>28</h>
+      <x>456</x>
+      <y>640</y>
+      <w>264</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-ev</panel_attributes>
+currentEvent</panel_attributes>
     <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>469</x>
-      <y>28</y>
-      <w>238</w>
-      <h>28</h>
+      <x>488</x>
+      <y>0</y>
+      <w>272</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>halign=center
 *2a.1) changeInformation*
