@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>396</x>
+      <x>459</x>
       <y>0</y>
       <w>306</w>
       <h>36</h>
@@ -19,7 +19,7 @@ fontsize=20
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>981</x>
+      <x>1044</x>
       <y>288</y>
       <w>270</w>
       <h>459</h>
@@ -31,7 +31,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>0</x>
+      <x>63</x>
       <y>9</y>
       <w>891</w>
       <h>495</h>
@@ -42,7 +42,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>900</x>
+      <x>963</x>
       <y>54</y>
       <w>270</w>
       <h>216</h>
@@ -54,7 +54,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>81</x>
+      <x>144</x>
       <y>45</y>
       <w>315</w>
       <h>261</h>
@@ -83,7 +83,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
+      <x>558</x>
       <y>36</y>
       <w>297</w>
       <h>234</h>
@@ -111,7 +111,7 @@ fg=gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>387</x>
+      <x>450</x>
       <y>171</y>
       <w>126</w>
       <h>45</h>
@@ -124,7 +124,7 @@ m1=0..1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>639</x>
+      <x>702</x>
       <y>405</y>
       <w>234</w>
       <h>90</h>
@@ -140,7 +140,7 @@ description: String
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>918</x>
+      <x>981</x>
       <y>90</y>
       <w>108</w>
       <h>63</h>
@@ -154,7 +154,7 @@ fg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
+      <x>873</x>
       <y>99</y>
       <w>126</w>
       <h>324</h>
@@ -166,7 +166,7 @@ itemRecipe</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
+      <x>729</x>
       <y>261</y>
       <w>81</w>
       <h>162</h>
@@ -179,7 +179,7 @@ freeItems</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
+      <x>504</x>
       <y>333</y>
       <w>189</w>
       <h>108</h>
@@ -196,7 +196,7 @@ name: String
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
+      <x>531</x>
       <y>216</y>
       <w>72</w>
       <h>135</h>
@@ -209,7 +209,7 @@ sections</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
+      <x>531</x>
       <y>432</y>
       <w>189</w>
       <h>72</h>
@@ -222,7 +222,7 @@ sectionItems</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>990</x>
+      <x>1053</x>
       <y>792</y>
       <w>198</w>
       <h>63</h>
@@ -235,7 +235,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1296</x>
+      <x>1359</x>
       <y>792</y>
       <w>117</w>
       <h>63</h>
@@ -250,7 +250,7 @@ fg=gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1179</x>
+      <x>1242</x>
       <y>819</y>
       <w>135</w>
       <h>27</h>
@@ -262,7 +262,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>72</x>
+      <x>135</x>
       <y>360</y>
       <w>351</w>
       <h>135</h>
@@ -283,7 +283,7 @@ fg=gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>207</x>
+      <x>270</x>
       <y>297</y>
       <w>108</w>
       <h>81</h>
@@ -296,7 +296,7 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>981</x>
+      <x>1044</x>
       <y>765</y>
       <w>486</w>
       <h>108</h>
@@ -308,7 +308,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>999</x>
+      <x>1062</x>
       <y>504</y>
       <w>234</w>
       <h>180</h>
@@ -329,7 +329,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1035</x>
+      <x>1098</x>
       <y>324</y>
       <w>144</w>
       <h>99</h>
@@ -348,7 +348,7 @@ fg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1098</x>
+      <x>1161</x>
       <y>414</y>
       <w>90</w>
       <h>108</h>
@@ -362,7 +362,7 @@ fg=gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
+      <x>819</x>
       <y>261</y>
       <w>297</w>
       <h>126</h>
@@ -375,7 +375,7 @@ m1=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>909</x>
+      <x>972</x>
       <y>180</y>
       <w>171</w>
       <h>81</h>
@@ -394,7 +394,7 @@ fg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1017</x>
+      <x>1080</x>
       <y>108</y>
       <w>153</w>
       <h>126</h>
@@ -410,7 +410,7 @@ fg=gray</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>540</y>
-      <w>891</w>
+      <w>954</w>
       <h>810</h>
     </coordinates>
     <panel_attributes>EventManagement</panel_attributes>
@@ -419,10 +419,10 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>18</x>
+      <x>9</x>
       <y>585</y>
-      <w>387</w>
-      <h>324</h>
+      <w>468</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>EventManager
 --
@@ -437,6 +437,7 @@ fg=gray</panel_attributes>
 -notifyAssignedChef(ev: Event, ch: Chef)
 -notifyAssignedChef(listEv: ArrayList&lt;Event&gt;, ch: Chef)
 -notifyStaffRolesModify(staff: ServiceStaff)
+-notifyRecurringEventCreated(evR: RecurringEvent, listEv: ArrayList&lt;Event&gt;)
 --
 *operations methods*
 +createEventCard(date: date, numPartecipants: int): Event
@@ -447,14 +448,15 @@ fg=gray</panel_attributes>
 +assignChef(chef: Chef)
 +editStaffRoles(name?: String, role?: String, staff: ServiceStaff, 
                                             service: Service, turn: ServiceTurn)
-
++createRecurringEvent(frequency: String, numPartecipants: int, 
+                                          numRepetitions: int, startDate: date): RecurringEvent
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>513</x>
+      <x>576</x>
       <y>747</y>
       <w>360</w>
       <h>315</h>
@@ -478,27 +480,28 @@ fg=gray</panel_attributes>
                                     numServices?: int, serviceType?: String, 
                                                    typologyNotes?: String): Event
 +addAssignChef(chef: Chef)
-+includeService(service: Service): boolean</panel_attributes>
++includeService(service: Service): boolean
++progressiveDate(date: date, frequency: String): date</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
+      <x>468</x>
       <y>855</y>
-      <w>135</w>
+      <w>126</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 currentEvent 
 m1=0..1</panel_attributes>
-    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>900</y>
+      <x>225</x>
+      <y>936</y>
       <w>108</w>
       <h>117</h>
     </coordinates>
@@ -510,10 +513,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>36</x>
-      <y>999</y>
-      <w>351</w>
-      <h>153</h>
+      <x>9</x>
+      <y>1035</y>
+      <w>450</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>EventReceiver
 {interface}
@@ -525,13 +528,14 @@ m1=0..n</panel_attributes>
 /+updateInformationModify(ev: Event)/
 /+updateAssignedChef(ev: Event, ch: Chef)/
 /+updateAssignedChef(listEv: ArrayList&lt;Event&gt;, ch: Chef)/
-/+updateStaffRolesModify(staff: ServiceStaff)/</panel_attributes>
+/+updateStaffRolesModify(staff: ServiceStaff)/
+/+updateRecurringEventCreated(evR: RecurringEvent, listEv: ArrayList&lt;Event&gt;)/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>405</x>
+      <x>468</x>
       <y>1143</y>
       <w>261</w>
       <h>144</h>
@@ -549,7 +553,7 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>459</x>
+      <x>522</x>
       <y>1053</y>
       <w>189</w>
       <h>108</h>
@@ -562,7 +566,7 @@ m1=1..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>936</x>
+      <x>999</x>
       <y>1143</y>
       <w>234</w>
       <h>99</h>
@@ -579,7 +583,7 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>657</x>
+      <x>720</x>
       <y>1170</y>
       <w>297</w>
       <h>45</h>
@@ -592,7 +596,7 @@ m1=1..n</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>918</x>
+      <x>981</x>
       <y>1107</y>
       <w>270</w>
       <h>243</h>
@@ -604,10 +608,10 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>558</x>
+      <x>621</x>
       <y>567</y>
       <w>315</w>
-      <h>108</h>
+      <h>117</h>
     </coordinates>
     <panel_attributes>RecurringEvent
 --
@@ -615,6 +619,8 @@ fg=gray</panel_attributes>
 -numRepetitions: int
 -startDate: date
 --
++create(frequency: String, numPartecipants: int, 
+                 numRepetitions: int, startDate: date)
 +addAssignChef(chef: Chef)
 +allEventIncludeService(service: Service)
 </panel_attributes>
@@ -623,20 +629,20 @@ fg=gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>666</y>
+      <x>747</x>
+      <y>675</y>
       <w>108</w>
-      <h>99</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 eventInstances
 m1=1..n</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
+      <x>927</x>
       <y>369</y>
       <w>189</w>
       <h>252</h>
@@ -649,7 +655,7 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>783</x>
+      <x>846</x>
       <y>396</y>
       <w>270</w>
       <h>369</h>
@@ -662,7 +668,7 @@ m1=1</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>981</x>
+      <x>1044</x>
       <y>882</y>
       <w>270</w>
       <h>216</h>
@@ -674,7 +680,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1008</x>
+      <x>1071</x>
       <y>918</y>
       <w>153</w>
       <h>81</h>
@@ -691,7 +697,7 @@ fg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>864</x>
+      <x>927</x>
       <y>936</y>
       <w>162</w>
       <h>45</h>
@@ -704,20 +710,20 @@ m1=0..1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
+      <x>468</x>
       <y>594</y>
-      <w>180</w>
+      <w>171</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 currentRecurringEvent
 m1=0..1</panel_attributes>
-    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>1269</x>
+      <x>1332</x>
       <y>1125</y>
       <w>279</w>
       <h>216</h>
@@ -729,7 +735,7 @@ fg=gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1296</x>
+      <x>1359</x>
       <y>1161</y>
       <w>243</w>
       <h>108</h>
@@ -748,7 +754,7 @@ fg=gray
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1161</x>
+      <x>1224</x>
       <y>1179</y>
       <w>153</w>
       <h>45</h>
