@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>102</x>
+      <y>24</y>
+      <w>42</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2112</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3500.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>84</y>
+      <w>246</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+changeEventInformation(event?, duration?, 
+location?, numServices?, serviceType?, 
+numPartecipants?, date?, typologyNotes?, 
+frequency?, numRepetitions?, startDate?, 
+instancePolicy)</panel_attributes>
+    <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>276</x>
+      <y>36</y>
+      <w>174</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>eventMgr:
+EventManager</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>354</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2112</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3500.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>354</x>
+      <y>96</y>
+      <w>12</w>
+      <h>2010</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>0</y>
+      <w>204</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>halign=center
+*1e.2) changeEventInformation*
+lw=0
+fontsize=20
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>12</x>
+      <y>138</y>
+      <w>1224</w>
+      <h>1998</h>
+    </coordinates>
+    <panel_attributes>alt 
+fg=#761C8C
+[currentRecurringEvent == null]
+--
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>180</y>
+      <w>198</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+modifyEventInformation(event?, duration?, 
+location?, numServices?, serviceType?, 
+numPartecipants?, date?, typologyNotes?, 
+frequency?, numRepetitions?, startDate?, 
+instancePolicy)</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>468</x>
+      <y>36</y>
+      <w>168</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>eventMgr.currentRecurringEvent: 
+RecurringEvent</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>546</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2112</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3500.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>546</x>
+      <y>192</y>
+      <w>12</w>
+      <h>1758</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>372</x>
+      <y>240</y>
+      <w>624</w>
+      <h>1686</h>
+    </coordinates>
+    <panel_attributes>alt 
+fg=#761C8C
+[instancePolicy == single
+&amp;&amp; event != null]
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>378</x>
+      <y>684</y>
+      <w>102</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>[instancePolicy == entire]
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>378</x>
+      <y>1278</y>
+      <w>102</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>[instancePolicy == following
+&amp;&amp; event != null]
+style=wordwrap
+fontsize=11
+fg=#761C8C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>144</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+throw UseCaseLogicException</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>696</x>
+      <y>36</y>
+      <w>162</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ev: 
+Event
+fg=BLACK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>774</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2112</h>
+    </coordinates>
+    <panel_attributes>lt=.
+fg=BLACK</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3500.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>240</y>
+      <w>234</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+modifyEventInformation(duration?, 
+location?, numServices?, serviceType?, 
+numPartecipants?, date?, typologyNotes?)</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>774</x>
+      <y>252</y>
+      <w>12</w>
+      <h>414</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>696</x>
+      <y>276</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[duration != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>696</x>
+      <y>330</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[location != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>696</x>
+      <y>384</y>
+      <w>258</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numServices != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>696</x>
+      <y>438</y>
+      <w>258</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[serviceType != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>690</x>
+      <y>600</y>
+      <w>264</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[typologyNotes != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>606</y>
+      <w>180</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.typologyNotes=typologyNotes</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>444</y>
+      <w>162</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.serviceType=serviceType</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>390</y>
+      <w>168</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numServices=numServices</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>336</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.location=location</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>282</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.duration=duration</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>498</y>
+      <w>198</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numPartecipants=numPartecipants</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>684</x>
+      <y>492</y>
+      <w>294</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numPartecipants != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>552</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.date=date</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>696</x>
+      <y>546</y>
+      <w>258</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[date != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>654</y>
+      <w>234</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ev</panel_attributes>
+    <additional_attributes>10.0;20.0;370.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>480</x>
+      <y>708</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[duration != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>474</x>
+      <y>762</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[location != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>816</y>
+      <w>264</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numServices != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>870</y>
+      <w>264</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[serviceType != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>456</x>
+      <y>924</y>
+      <w>300</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numPartecipants != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>474</x>
+      <y>978</y>
+      <w>258</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[date != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>462</x>
+      <y>1032</y>
+      <w>270</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[typologyNotes != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>714</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.duration=duration</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>768</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.location=location</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>822</y>
+      <w>168</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numServices=numServices</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>876</y>
+      <w>162</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.serviceType=serviceType</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>930</y>
+      <w>198</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numPartecipants=numPartecipants</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>984</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.date=date</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1038</y>
+      <w>180</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.typologyNotes=typologyNotes</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>384</x>
+      <y>702</y>
+      <w>384</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>for each
+ev in eventInstances
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>1212</y>
+      <w>264</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[startDate != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>456</x>
+      <y>1158</y>
+      <w>282</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numRepetitions != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>462</x>
+      <y>1104</y>
+      <w>294</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[frequency != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1110</y>
+      <w>150</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.frequency=frequency</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1164</y>
+      <w>192</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numRepetitions=numRepetitions</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1218</y>
+      <w>144</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.startDate=startDate</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1080</x>
+      <y>36</y>
+      <w>192</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>eventMgr.currentRecurringEvent.eventInstances: 
+ArrayList&lt;Event&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1176</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2106</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3490.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>378</x>
+      <y>1302</y>
+      <w>414</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>for each
+ev in eventInstances
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>462</x>
+      <y>1674</y>
+      <w>270</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[typologyNotes != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>474</x>
+      <y>1620</y>
+      <w>258</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[date != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>456</x>
+      <y>1566</y>
+      <w>300</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numPartecipants != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>1512</y>
+      <w>264</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[serviceType != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>1458</y>
+      <w>264</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numServices != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>474</x>
+      <y>1404</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[location != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>480</x>
+      <y>1350</y>
+      <w>216</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[duration != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1356</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.duration=duration</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1410</y>
+      <w>132</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.location=location</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1464</y>
+      <w>168</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numServices=numServices</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1518</y>
+      <w>162</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.serviceType=serviceType</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1572</y>
+      <w>198</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numPartecipants=numPartecipants</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1626</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.date=date</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1680</y>
+      <w>180</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.typologyNotes=typologyNotes</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>468</x>
+      <y>1866</y>
+      <w>264</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[startDate != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>456</x>
+      <y>1812</y>
+      <w>282</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[numRepetitions != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>462</x>
+      <y>1758</y>
+      <w>294</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[frequency != null]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1764</y>
+      <w>150</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.frequency=frequency</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1818</y>
+      <w>192</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.numRepetitions=numRepetitions</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>552</x>
+      <y>1872</y>
+      <w>144</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+this.startDate=startDate</panel_attributes>
+    <additional_attributes>10.0;50.0;70.0;50.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>384</x>
+      <y>1338</y>
+      <w>384</w>
+      <h>402</h>
+    </coordinates>
+    <panel_attributes>opt 
+
+[ev.this.date &gt;= event.data]
+--
+fontsize=11
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>1986</y>
+      <w>12</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>1962</y>
+      <w>264</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+notifyRecurringInformationModify(currentRecurringEvent)</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;40.0;20.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>366</x>
+      <y>2052</y>
+      <w>648</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+updateRecurringInformationModify(currentRecurringEvent)
+</panel_attributes>
+    <additional_attributes>1060.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>276</x>
+      <y>2028</y>
+      <w>774</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>for each
+er in receivers
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1002</x>
+      <y>2064</y>
+      <w>12</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1002</x>
+      <y>60</y>
+      <w>18</w>
+      <h>2112</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;3500.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>954</x>
+      <y>36</y>
+      <w>114</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>er:
+EventReceiver
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>2094</y>
+      <w>246</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+currentRecurringEvent</panel_attributes>
+    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>1938</y>
+      <w>198</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+currentRecurringEvent</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+</diagram>
