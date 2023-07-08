@@ -4,7 +4,7 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>224</x>
+      <x>176</x>
       <y>96</y>
       <w>56</w>
       <h>88</h>
@@ -15,7 +15,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>200</x>
       <y>144</y>
       <w>24</w>
       <h>904</h>
@@ -26,7 +26,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>456</x>
+      <x>408</x>
       <y>112</y>
       <w>232</w>
       <h>40</h>
@@ -38,7 +38,7 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
+      <x>512</x>
       <y>144</y>
       <w>24</w>
       <h>904</h>
@@ -49,7 +49,7 @@ EventManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>560</x>
+      <x>512</x>
       <y>192</y>
       <w>16</w>
       <h>736</h>
@@ -60,7 +60,7 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>200</x>
       <y>176</y>
       <w>328</w>
       <h>40</h>
@@ -73,7 +73,7 @@ turn)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>48</x>
+      <x>0</x>
       <y>528</y>
       <w>1632</w>
       <h>424</h>
@@ -147,7 +147,7 @@ fontsize=11
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>712</x>
+      <x>664</x>
       <y>112</y>
       <w>224</w>
       <h>40</h>
@@ -159,7 +159,7 @@ ServiceStaff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
+      <x>768</x>
       <y>144</y>
       <w>24</w>
       <h>896</h>
@@ -170,7 +170,7 @@ ServiceStaff</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1200</x>
+      <x>1152</x>
       <y>112</y>
       <w>152</w>
       <h>40</h>
@@ -184,7 +184,7 @@ EventReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1264</x>
+      <x>1216</x>
       <y>144</y>
       <w>24</w>
       <h>896</h>
@@ -196,7 +196,7 @@ EventReceiver
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>952</x>
+      <x>904</x>
       <y>112</y>
       <w>224</w>
       <h>40</h>
@@ -208,7 +208,7 @@ RecurringEvent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
+      <x>1008</x>
       <y>144</y>
       <w>24</w>
       <h>896</h>
@@ -219,7 +219,7 @@ RecurringEvent</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>864</x>
+      <x>816</x>
       <y>56</y>
       <w>168</w>
       <h>40</h>
@@ -232,7 +232,7 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>936</x>
+      <x>888</x>
       <y>88</y>
       <w>24</w>
       <h>952</h>
@@ -244,7 +244,7 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>200</x>
       <y>912</y>
       <w>328</w>
       <h>32</h>
@@ -256,7 +256,7 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>536</y>
       <w>264</w>
       <h>40</h>
@@ -269,7 +269,7 @@ turn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>816</x>
+      <x>768</x>
       <y>552</y>
       <w>16</w>
       <h>192</h>
@@ -280,7 +280,7 @@ turn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1112</x>
+      <x>1064</x>
       <y>56</y>
       <w>152</w>
       <h>40</h>
@@ -294,7 +294,7 @@ Service
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1176</x>
+      <x>1128</x>
       <y>88</y>
       <w>24</w>
       <h>952</h>
@@ -306,7 +306,7 @@ Service
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1368</x>
+      <x>1320</x>
       <y>112</y>
       <w>152</w>
       <h>40</h>
@@ -320,7 +320,7 @@ ServiceTurn
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1432</x>
+      <x>1384</x>
       <y>144</y>
       <w>24</w>
       <h>896</h>
@@ -332,7 +332,7 @@ ServiceTurn
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>712</x>
+      <x>664</x>
       <y>576</y>
       <w>288</w>
       <h>72</h>
@@ -348,7 +348,7 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>824</x>
+      <x>776</x>
       <y>584</y>
       <w>152</w>
       <h>56</h>
@@ -360,7 +360,7 @@ this.name=name</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>712</x>
+      <x>664</x>
       <y>656</y>
       <w>288</w>
       <h>72</h>
@@ -376,7 +376,7 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>824</x>
+      <x>776</x>
       <y>664</y>
       <w>136</w>
       <h>56</h>
@@ -388,7 +388,7 @@ this.role=role</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1528</x>
+      <x>1480</x>
       <y>112</y>
       <w>256</w>
       <h>40</h>
@@ -400,7 +400,7 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1656</x>
+      <x>1608</x>
       <y>144</y>
       <w>24</w>
       <h>888</h>
@@ -411,7 +411,7 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>464</x>
+      <x>416</x>
       <y>800</y>
       <w>872</w>
       <h>64</h>
@@ -424,7 +424,7 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>744</y>
       <w>208</w>
       <h>48</h>
@@ -436,7 +436,7 @@ notifyStaffRolesModify(staff)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>760</y>
       <w>16</w>
       <h>112</h>
@@ -447,7 +447,7 @@ notifyStaffRolesModify(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>576</x>
+      <x>528</x>
       <y>824</y>
       <w>704</w>
       <h>40</h>
@@ -460,7 +460,7 @@ updateStaffRolesModify(staff)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1264</x>
+      <x>1216</x>
       <y>840</y>
       <w>16</w>
       <h>16</h>
@@ -472,7 +472,7 @@ updateStaffRolesModify(staff)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>208</y>
       <w>384</w>
       <h>32</h>
@@ -484,7 +484,7 @@ includeService(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>232</y>
       <w>384</w>
       <h>32</h>
@@ -496,7 +496,7 @@ includeService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>256</y>
       <w>624</w>
       <h>32</h>
@@ -508,7 +508,7 @@ ownsTurn(turn)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>280</y>
       <w>624</w>
       <h>32</h>
@@ -520,7 +520,7 @@ ownsTurn</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>304</y>
       <w>880</w>
       <h>32</h>
@@ -532,7 +532,7 @@ owns(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>328</y>
       <w>880</w>
       <h>32</h>
@@ -544,7 +544,7 @@ owns</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>424</x>
+      <x>376</x>
       <y>352</y>
       <w>672</w>
       <h>88</h>
@@ -557,7 +557,7 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>368</y>
       <w>504</w>
       <h>32</h>
@@ -569,7 +569,7 @@ allEventIncludeService(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>408</y>
       <w>504</w>
       <h>32</h>
@@ -581,7 +581,7 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>936</x>
+      <x>888</x>
       <y>224</y>
       <w>16</w>
       <h>24</h>
@@ -592,7 +592,7 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1176</x>
+      <x>1128</x>
       <y>272</y>
       <w>16</w>
       <h>24</h>
@@ -603,7 +603,7 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1432</x>
+      <x>1384</x>
       <y>320</y>
       <w>16</w>
       <h>24</h>
@@ -614,7 +614,7 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1056</x>
+      <x>1008</x>
       <y>384</y>
       <w>16</w>
       <h>40</h>
@@ -625,7 +625,7 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>456</y>
       <w>880</w>
       <h>32</h>
@@ -637,7 +637,7 @@ isAvailable(staff)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1432</x>
+      <x>1384</x>
       <y>472</y>
       <w>16</w>
       <h>24</h>
@@ -648,7 +648,7 @@ isAvailable(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>568</x>
+      <x>520</x>
       <y>480</y>
       <w>880</w>
       <h>32</h>
@@ -660,7 +660,7 @@ isAvailable</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>880</x>
+      <x>832</x>
       <y>0</y>
       <w>272</w>
       <h>32</h>

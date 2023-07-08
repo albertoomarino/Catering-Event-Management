@@ -73,15 +73,16 @@ fontsize=11
   <element>
     <id>Text</id>
     <coordinates>
-      <x>104</x>
-      <y>312</y>
+      <x>96</x>
+      <y>304</y>
       <w>128</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>[event.state == inProgress
 || !event.isOwner(user)]
 style=wordwrap
-fontsize=11</panel_attributes>
+fontsize=11
+fg=#761C8C</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
