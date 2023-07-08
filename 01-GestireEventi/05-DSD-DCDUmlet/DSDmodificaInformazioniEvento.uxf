@@ -4,8 +4,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>102</x>
-      <y>24</y>
+      <x>90</x>
+      <y>36</y>
       <w>42</w>
       <h>66</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>60</y>
+      <x>108</x>
+      <y>72</y>
       <w>18</w>
       <h>2112</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>84</y>
+      <x>108</x>
+      <y>96</y>
       <w>246</w>
       <h>54</h>
     </coordinates>
@@ -42,8 +42,8 @@ instancePolicy)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>276</x>
-      <y>36</y>
+      <x>264</x>
+      <y>48</y>
       <w>174</w>
       <h>30</h>
     </coordinates>
@@ -54,8 +54,8 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>354</x>
-      <y>60</y>
+      <x>342</x>
+      <y>72</y>
       <w>18</w>
       <h>2112</h>
     </coordinates>
@@ -65,8 +65,8 @@ EventManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>354</x>
-      <y>96</y>
+      <x>342</x>
+      <y>108</y>
       <w>12</w>
       <h>2010</h>
     </coordinates>
@@ -76,8 +76,8 @@ EventManager</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>414</x>
-      <y>0</y>
+      <x>402</x>
+      <y>12</y>
       <w>204</w>
       <h>30</h>
     </coordinates>
@@ -91,8 +91,8 @@ fontsize=20
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>12</x>
-      <y>138</y>
+      <x>0</x>
+      <y>150</y>
       <w>1224</w>
       <h>1998</h>
     </coordinates>
@@ -135,8 +135,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>180</y>
+      <x>348</x>
+      <y>192</y>
       <w>198</w>
       <h>54</h>
     </coordinates>
@@ -151,8 +151,8 @@ instancePolicy)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
-      <y>36</y>
+      <x>456</x>
+      <y>48</y>
       <w>168</w>
       <h>30</h>
     </coordinates>
@@ -163,8 +163,8 @@ RecurringEvent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>546</x>
-      <y>60</y>
+      <x>534</x>
+      <y>72</y>
       <w>18</w>
       <h>2112</h>
     </coordinates>
@@ -174,8 +174,8 @@ RecurringEvent</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>546</x>
-      <y>192</y>
+      <x>534</x>
+      <y>204</y>
       <w>12</w>
       <h>1758</h>
     </coordinates>
@@ -185,8 +185,8 @@ RecurringEvent</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>372</x>
-      <y>240</y>
+      <x>360</x>
+      <y>252</y>
       <w>624</w>
       <h>1686</h>
     </coordinates>
@@ -374,8 +374,8 @@ fontsize=11
   <element>
     <id>Text</id>
     <coordinates>
-      <x>378</x>
-      <y>684</y>
+      <x>366</x>
+      <y>696</y>
       <w>102</w>
       <h>18</h>
     </coordinates>
@@ -388,8 +388,8 @@ fg=#761C8C</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>378</x>
-      <y>1278</y>
+      <x>366</x>
+      <y>1290</y>
       <w>102</w>
       <h>24</h>
     </coordinates>
@@ -403,8 +403,8 @@ fg=#761C8C</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>144</y>
+      <x>108</x>
+      <y>156</y>
       <w>246</w>
       <h>24</h>
     </coordinates>
@@ -415,12 +415,12 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>696</x>
-      <y>36</y>
+      <x>684</x>
+      <y>48</y>
       <w>162</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>ev: 
+    <panel_attributes>currentRecurringEvent.eventInstances[i]: 
 Event
 fg=BLACK</panel_attributes>
     <additional_attributes/>
@@ -428,8 +428,8 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>774</x>
-      <y>60</y>
+      <x>762</x>
+      <y>72</y>
       <w>18</w>
       <h>2112</h>
     </coordinates>
@@ -440,8 +440,8 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>240</y>
+      <x>540</x>
+      <y>252</y>
       <w>234</w>
       <h>36</h>
     </coordinates>
@@ -454,8 +454,8 @@ numPartecipants?, date?, typologyNotes?)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>774</x>
-      <y>252</y>
+      <x>762</x>
+      <y>264</y>
       <w>12</w>
       <h>414</h>
     </coordinates>
@@ -465,8 +465,8 @@ numPartecipants?, date?, typologyNotes?)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>696</x>
-      <y>276</y>
+      <x>684</x>
+      <y>288</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -481,8 +481,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>696</x>
-      <y>330</y>
+      <x>684</x>
+      <y>342</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -497,8 +497,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>696</x>
-      <y>384</y>
+      <x>684</x>
+      <y>396</y>
       <w>258</w>
       <h>48</h>
     </coordinates>
@@ -513,8 +513,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>696</x>
-      <y>438</y>
+      <x>684</x>
+      <y>450</y>
       <w>258</w>
       <h>48</h>
     </coordinates>
@@ -529,8 +529,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>690</x>
-      <y>600</y>
+      <x>678</x>
+      <y>612</y>
       <w>264</w>
       <h>54</h>
     </coordinates>
@@ -545,8 +545,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>606</y>
+      <x>768</x>
+      <y>618</y>
       <w>180</w>
       <h>42</h>
     </coordinates>
@@ -557,8 +557,8 @@ this.typologyNotes=typologyNotes</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>444</y>
+      <x>768</x>
+      <y>456</y>
       <w>162</w>
       <h>42</h>
     </coordinates>
@@ -569,8 +569,8 @@ this.serviceType=serviceType</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>390</y>
+      <x>768</x>
+      <y>402</y>
       <w>168</w>
       <h>42</h>
     </coordinates>
@@ -581,8 +581,8 @@ this.numServices=numServices</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>336</y>
+      <x>768</x>
+      <y>348</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -593,8 +593,8 @@ this.location=location</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>282</y>
+      <x>768</x>
+      <y>294</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -605,8 +605,8 @@ this.duration=duration</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>498</y>
+      <x>768</x>
+      <y>510</y>
       <w>198</w>
       <h>42</h>
     </coordinates>
@@ -617,8 +617,8 @@ this.numPartecipants=numPartecipants</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>684</x>
-      <y>492</y>
+      <x>672</x>
+      <y>504</y>
       <w>294</w>
       <h>48</h>
     </coordinates>
@@ -633,8 +633,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>552</y>
+      <x>768</x>
+      <y>564</y>
       <w>108</w>
       <h>42</h>
     </coordinates>
@@ -645,8 +645,8 @@ this.date=date</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>696</x>
-      <y>546</y>
+      <x>684</x>
+      <y>558</y>
       <w>258</w>
       <h>48</h>
     </coordinates>
@@ -661,8 +661,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>654</y>
+      <x>540</x>
+      <y>666</y>
       <w>234</w>
       <h>24</h>
     </coordinates>
@@ -673,8 +673,8 @@ ev</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>480</x>
-      <y>708</y>
+      <x>468</x>
+      <y>720</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -689,8 +689,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>474</x>
-      <y>762</y>
+      <x>462</x>
+      <y>774</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -705,8 +705,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>816</y>
+      <x>456</x>
+      <y>828</y>
       <w>264</w>
       <h>48</h>
     </coordinates>
@@ -721,8 +721,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>870</y>
+      <x>456</x>
+      <y>882</y>
       <w>264</w>
       <h>48</h>
     </coordinates>
@@ -737,8 +737,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>456</x>
-      <y>924</y>
+      <x>444</x>
+      <y>936</y>
       <w>300</w>
       <h>48</h>
     </coordinates>
@@ -753,8 +753,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>474</x>
-      <y>978</y>
+      <x>462</x>
+      <y>990</y>
       <w>258</w>
       <h>48</h>
     </coordinates>
@@ -769,8 +769,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>462</x>
-      <y>1032</y>
+      <x>450</x>
+      <y>1044</y>
       <w>270</w>
       <h>54</h>
     </coordinates>
@@ -785,8 +785,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>714</y>
+      <x>540</x>
+      <y>726</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -797,8 +797,8 @@ this.duration=duration</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>768</y>
+      <x>540</x>
+      <y>780</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -809,8 +809,8 @@ this.location=location</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>822</y>
+      <x>540</x>
+      <y>834</y>
       <w>168</w>
       <h>42</h>
     </coordinates>
@@ -821,8 +821,8 @@ this.numServices=numServices</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>876</y>
+      <x>540</x>
+      <y>888</y>
       <w>162</w>
       <h>42</h>
     </coordinates>
@@ -833,8 +833,8 @@ this.serviceType=serviceType</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>930</y>
+      <x>540</x>
+      <y>942</y>
       <w>198</w>
       <h>42</h>
     </coordinates>
@@ -845,8 +845,8 @@ this.numPartecipants=numPartecipants</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>984</y>
+      <x>540</x>
+      <y>996</y>
       <w>108</w>
       <h>42</h>
     </coordinates>
@@ -857,8 +857,8 @@ this.date=date</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1038</y>
+      <x>540</x>
+      <y>1050</y>
       <w>180</w>
       <h>42</h>
     </coordinates>
@@ -869,8 +869,8 @@ this.typologyNotes=typologyNotes</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>384</x>
-      <y>702</y>
+      <x>372</x>
+      <y>714</y>
       <w>384</w>
       <h>396</h>
     </coordinates>
@@ -882,8 +882,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>1212</y>
+      <x>456</x>
+      <y>1224</y>
       <w>264</w>
       <h>54</h>
     </coordinates>
@@ -898,8 +898,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>456</x>
-      <y>1158</y>
+      <x>444</x>
+      <y>1170</y>
       <w>282</w>
       <h>48</h>
     </coordinates>
@@ -914,8 +914,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>462</x>
-      <y>1104</y>
+      <x>450</x>
+      <y>1116</y>
       <w>294</w>
       <h>48</h>
     </coordinates>
@@ -930,8 +930,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1110</y>
+      <x>540</x>
+      <y>1122</y>
       <w>150</w>
       <h>42</h>
     </coordinates>
@@ -942,8 +942,8 @@ this.frequency=frequency</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1164</y>
+      <x>540</x>
+      <y>1176</y>
       <w>192</w>
       <h>42</h>
     </coordinates>
@@ -954,8 +954,8 @@ this.numRepetitions=numRepetitions</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1218</y>
+      <x>540</x>
+      <y>1230</y>
       <w>144</w>
       <h>42</h>
     </coordinates>
@@ -966,8 +966,8 @@ this.startDate=startDate</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1080</x>
-      <y>36</y>
+      <x>1068</x>
+      <y>48</y>
       <w>192</w>
       <h>30</h>
     </coordinates>
@@ -978,8 +978,8 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1176</x>
-      <y>60</y>
+      <x>1164</x>
+      <y>72</y>
       <w>18</w>
       <h>2106</h>
     </coordinates>
@@ -989,8 +989,8 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>378</x>
-      <y>1302</y>
+      <x>366</x>
+      <y>1314</y>
       <w>414</w>
       <h>450</h>
     </coordinates>
@@ -1002,8 +1002,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>462</x>
-      <y>1674</y>
+      <x>450</x>
+      <y>1686</y>
       <w>270</w>
       <h>54</h>
     </coordinates>
@@ -1018,8 +1018,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>474</x>
-      <y>1620</y>
+      <x>462</x>
+      <y>1632</y>
       <w>258</w>
       <h>48</h>
     </coordinates>
@@ -1034,8 +1034,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>456</x>
-      <y>1566</y>
+      <x>444</x>
+      <y>1578</y>
       <w>300</w>
       <h>48</h>
     </coordinates>
@@ -1050,8 +1050,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>1512</y>
+      <x>456</x>
+      <y>1524</y>
       <w>264</w>
       <h>48</h>
     </coordinates>
@@ -1066,8 +1066,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>1458</y>
+      <x>456</x>
+      <y>1470</y>
       <w>264</w>
       <h>48</h>
     </coordinates>
@@ -1082,8 +1082,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>474</x>
-      <y>1404</y>
+      <x>462</x>
+      <y>1416</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -1098,8 +1098,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>480</x>
-      <y>1350</y>
+      <x>468</x>
+      <y>1362</y>
       <w>216</w>
       <h>48</h>
     </coordinates>
@@ -1114,8 +1114,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1356</y>
+      <x>540</x>
+      <y>1368</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -1126,8 +1126,8 @@ this.duration=duration</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1410</y>
+      <x>540</x>
+      <y>1422</y>
       <w>132</w>
       <h>42</h>
     </coordinates>
@@ -1138,8 +1138,8 @@ this.location=location</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1464</y>
+      <x>540</x>
+      <y>1476</y>
       <w>168</w>
       <h>42</h>
     </coordinates>
@@ -1150,8 +1150,8 @@ this.numServices=numServices</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1518</y>
+      <x>540</x>
+      <y>1530</y>
       <w>162</w>
       <h>42</h>
     </coordinates>
@@ -1162,8 +1162,8 @@ this.serviceType=serviceType</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1572</y>
+      <x>540</x>
+      <y>1584</y>
       <w>198</w>
       <h>42</h>
     </coordinates>
@@ -1174,8 +1174,8 @@ this.numPartecipants=numPartecipants</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1626</y>
+      <x>540</x>
+      <y>1638</y>
       <w>108</w>
       <h>42</h>
     </coordinates>
@@ -1186,8 +1186,8 @@ this.date=date</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1680</y>
+      <x>540</x>
+      <y>1692</y>
       <w>180</w>
       <h>42</h>
     </coordinates>
@@ -1198,8 +1198,8 @@ this.typologyNotes=typologyNotes</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>468</x>
-      <y>1866</y>
+      <x>456</x>
+      <y>1878</y>
       <w>264</w>
       <h>54</h>
     </coordinates>
@@ -1214,8 +1214,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>456</x>
-      <y>1812</y>
+      <x>444</x>
+      <y>1824</y>
       <w>282</w>
       <h>48</h>
     </coordinates>
@@ -1230,8 +1230,8 @@ fontsize=11
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>462</x>
-      <y>1758</y>
+      <x>450</x>
+      <y>1770</y>
       <w>294</w>
       <h>48</h>
     </coordinates>
@@ -1246,8 +1246,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1764</y>
+      <x>540</x>
+      <y>1776</y>
       <w>150</w>
       <h>42</h>
     </coordinates>
@@ -1258,8 +1258,8 @@ this.frequency=frequency</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1818</y>
+      <x>540</x>
+      <y>1830</y>
       <w>192</w>
       <h>42</h>
     </coordinates>
@@ -1270,8 +1270,8 @@ this.numRepetitions=numRepetitions</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>552</x>
-      <y>1872</y>
+      <x>540</x>
+      <y>1884</y>
       <w>144</w>
       <h>42</h>
     </coordinates>
@@ -1282,8 +1282,8 @@ this.startDate=startDate</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>384</x>
-      <y>1338</y>
+      <x>372</x>
+      <y>1350</y>
       <w>384</w>
       <h>402</h>
     </coordinates>
@@ -1298,8 +1298,8 @@ fontsize=11
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>360</x>
-      <y>1986</y>
+      <x>348</x>
+      <y>1998</y>
       <w>12</w>
       <h>102</h>
     </coordinates>
@@ -1309,8 +1309,8 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>1962</y>
+      <x>348</x>
+      <y>1974</y>
       <w>264</w>
       <h>36</h>
     </coordinates>
@@ -1321,8 +1321,8 @@ notifyRecurringInformationModify(currentRecurringEvent)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>366</x>
-      <y>2052</y>
+      <x>354</x>
+      <y>2064</y>
       <w>648</w>
       <h>30</h>
     </coordinates>
@@ -1334,8 +1334,8 @@ updateRecurringInformationModify(currentRecurringEvent)
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>276</x>
-      <y>2028</y>
+      <x>264</x>
+      <y>2040</y>
       <w>774</w>
       <h>54</h>
     </coordinates>
@@ -1347,8 +1347,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1002</x>
-      <y>2064</y>
+      <x>990</x>
+      <y>2076</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -1359,8 +1359,8 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1002</x>
-      <y>60</y>
+      <x>990</x>
+      <y>72</y>
       <w>18</w>
       <h>2112</h>
     </coordinates>
@@ -1371,8 +1371,8 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>954</x>
-      <y>36</y>
+      <x>942</x>
+      <y>48</y>
       <w>114</w>
       <h>30</h>
     </coordinates>
@@ -1385,8 +1385,8 @@ EventReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>2094</y>
+      <x>108</x>
+      <y>2106</y>
       <w>246</w>
       <h>24</h>
     </coordinates>
@@ -1397,8 +1397,8 @@ currentRecurringEvent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>1938</y>
+      <x>348</x>
+      <y>1950</y>
       <w>198</w>
       <h>24</h>
     </coordinates>

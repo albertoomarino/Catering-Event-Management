@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>9</zoom_level>
+  <help_text/>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>306</x>
-      <y>9</y>
-      <w>54</w>
-      <h>99</h>
+      <x>480</x>
+      <y>100</y>
+      <w>60</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Chef</panel_attributes>
     <additional_attributes/>
@@ -15,58 +16,60 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>711</x>
-      <y>72</y>
-      <w>27</w>
-      <h>648</h>
+      <x>930</x>
+      <y>170</y>
+      <w>30</w>
+      <h>900</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;700.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;880.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>144</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>220</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-1.generaFoglio(ricetta, preparazione, servizio)</panel_attributes>
-    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>333</x>
-      <y>171</y>
-      <w>405</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-menù registrato</panel_attributes>
-    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>333</x>
-      <y>306</y>
-      <w>405</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-2.aggiungiRicettaPreparazione(descrizione)
+1.creaFoglioRiepilogativo(servizio)
 fg=GRAY</panel_attributes>
     <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>486</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>250</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+foglio registrato
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>300</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+2.aggiungiAssegnamento(ricetta, preparazione, numPreparazioni)
+fg=GRAY</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>500</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 4.consultaTabellone()
@@ -76,73 +79,47 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>513</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>530</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-turni
+informazione sui turni
 fg=GRAY</panel_attributes>
     <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>558</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>610</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-5.assegnaRicettaPreparazione(cosa, turno, cuoco?)
-fg=GRAY</panel_attributes>
+5.assegnaAssegnamento(assegnamento, turno, cuoco?)</panel_attributes>
     <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>585</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>640</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-assegnazione registrata
-fg=GRAY</panel_attributes>
+assegnazione registrata</panel_attributes>
     <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>333</y>
-      <w>405</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-ricetta/preparazione registrata
-fg=GRAY</panel_attributes>
-    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>333</x>
-      <y>90</y>
-      <w>27</w>
-      <h>630</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>333</x>
-      <y>414</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>330</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok
@@ -152,10 +129,34 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>666</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>190</y>
+      <w>30</w>
+      <h>880</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;860.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>420</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=GRAY</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>970</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 informazioni registrate
@@ -165,23 +166,24 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>639</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>930</y>
+      <w>450</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-6.aggiungiInfoAssegnazione(quantità?, porzione?, tempo)
+6.aggiungiInfoAssegnamento(assegnamento, 
+quantità?, porzione?, tempo)
 fg=GRAY</panel_attributes>
     <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>666</x>
-      <y>36</y>
-      <w>99</w>
-      <h>45</h>
+      <x>880</x>
+      <y>130</y>
+      <w>110</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>System</panel_attributes>
     <additional_attributes/>
@@ -189,23 +191,23 @@ fg=GRAY</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>387</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>390</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-3.ordinaRicettePreparazioni(criterio)
+3.ordinaRicettePreparazioni(assegnamento, ordinamento)
 fg=GRAY</panel_attributes>
     <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>297</x>
-      <y>297</y>
-      <w>495</w>
-      <h>72</h>
+      <x>470</x>
+      <y>290</y>
+      <w>550</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=GRAY</panel_attributes>
@@ -214,10 +216,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>234</x>
-      <y>288</y>
-      <w>603</w>
-      <h>432</h>
+      <x>470</x>
+      <y>380</y>
+      <w>550</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -226,10 +228,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>297</x>
-      <y>378</y>
-      <w>495</w>
-      <h>72</h>
+      <x>470</x>
+      <y>490</y>
+      <w>550</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -238,10 +240,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>297</x>
-      <y>477</y>
-      <w>495</w>
-      <h>81</h>
+      <x>470</x>
+      <y>930</y>
+      <w>550</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>OPT
 fg=GRAY</panel_attributes>
@@ -250,22 +252,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>297</x>
-      <y>630</y>
-      <w>495</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>OPT
-fg=GRAY</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>243</x>
-      <y>468</y>
-      <w>585</w>
-      <h>243</h>
+      <x>380</x>
+      <y>480</y>
+      <w>700</w>
+      <h>550</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=GRAY</panel_attributes>
@@ -274,10 +264,10 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>279</x>
-      <y>108</y>
-      <w>531</w>
-      <h>351</h>
+      <x>450</x>
+      <y>210</y>
+      <w>590</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>LOOP
 fg=GRAY</panel_attributes>
@@ -286,16 +276,25 @@ fg=GRAY</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>297</x>
-      <y>135</y>
-      <w>477</w>
-      <h>153</h>
+      <x>440</x>
+      <y>610</y>
+      <w>590</w>
+      <h>290</h>
     </coordinates>
     <panel_attributes>ALT
 fg=#761C8C
 bg=#e7bfff
 lw=2
 --
+
+
+-.
+
+
+
+
+
+
 
 
 
@@ -305,27 +304,131 @@ lw=2
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>216</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>680</y>
+      <w>450</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-1a.1 apriFoglioRiepilogativo(nome)
+5a.1 modificaAssegnamento(assegnamento, cuoco?, tempo?, 
+turno?, ricetta?, quantità?, porzione?)
 fg=#9E1C8C</panel_attributes>
     <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>333</x>
-      <y>243</y>
-      <w>405</w>
-      <h>36</h>
+      <x>510</x>
+      <y>730</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ok
+fg=#9E1C8C
+layer=2</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>830</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+5b.1 eliminaAssegnamento(assegnamento)
+fg=#9E1C8C</panel_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>860</y>
+      <w>450</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ok
 fg=#9E1C8C</panel_attributes>
+    <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>0</y>
+      <w>440</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Diagrammi di sequenza di sistema
+per l'UC Gestire i compiti della cucina
+lw=0
+fontsize=24
+bg=#F9FF47</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>60</y>
+      <w>390</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>valign=center
+halign=center
+Estensioni al passo 5 (5a, 5b)
+e relativa eccezione (5a.1a)
+lw=0
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>400</x>
+      <y>590</y>
+      <w>660</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>OPT
+fg=GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>470</x>
+      <y>720</y>
+      <w>510</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>ALT
+bg=#ffaaaa
+--
+
+-.
+fg=#D3001B
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>770</y>
+      <w>450</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+5a.1a.1 errore cuoco non disponibile
+fg=red
+layer=3</panel_attributes>
     <additional_attributes>10.0;20.0;430.0;20.0</additional_attributes>
   </element>
 </diagram>
