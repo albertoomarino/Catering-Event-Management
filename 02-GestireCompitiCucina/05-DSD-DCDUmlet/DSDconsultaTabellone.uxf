@@ -95,7 +95,7 @@ layer=1</panel_attributes>
       <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-getTurnBorad()</panel_attributes>
+getTurnBoard()</panel_attributes>
     <additional_attributes>240.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>

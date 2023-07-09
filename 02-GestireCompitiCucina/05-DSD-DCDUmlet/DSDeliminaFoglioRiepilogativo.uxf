@@ -30,11 +30,11 @@ KitchenTaskManager</panel_attributes>
       <x>483</x>
       <y>84</y>
       <w>21</w>
-      <h>364</h>
+      <h>413</h>
     </coordinates>
     <panel_attributes>lt=.
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;500.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -42,7 +42,7 @@ layer=2</panel_attributes>
       <x>483</x>
       <y>119</y>
       <w>14</w>
-      <h>287</h>
+      <h>343</h>
     </coordinates>
     <panel_attributes>
 layer=1</panel_attributes>
@@ -66,17 +66,17 @@ deleteSummarySheet(summarySheet)</panel_attributes>
       <x>294</x>
       <y>98</y>
       <w>21</w>
-      <h>350</h>
+      <h>399</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;480.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;550.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>182</x>
-      <y>182</y>
-      <w>805</w>
+      <y>231</y>
+      <w>896</w>
       <h>238</h>
     </coordinates>
     <panel_attributes>alt 
@@ -149,17 +149,17 @@ UserManager</panel_attributes>
       <x>728</x>
       <y>84</y>
       <w>21</w>
-      <h>364</h>
+      <h>413</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;500.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>294</x>
-      <y>196</y>
+      <y>245</y>
       <w>203</w>
       <h>28</h>
     </coordinates>
@@ -171,11 +171,11 @@ throw UseCaseLogicException</panel_attributes>
     <id>Text</id>
     <coordinates>
       <x>182</x>
-      <y>231</y>
+      <y>280</y>
       <w>133</w>
       <h>35</h>
     </coordinates>
-    <panel_attributes>[!summarySheet.isHolder(user)]
+    <panel_attributes>[!isHolder]
 style=wordwrap
 fontsize=11
 fg=#761C8C</panel_attributes>
@@ -185,7 +185,7 @@ fg=#761C8C</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>294</x>
-      <y>238</y>
+      <y>287</y>
       <w>203</w>
       <h>28</h>
     </coordinates>
@@ -212,7 +212,7 @@ fontsize=20
     <id>Relation</id>
     <coordinates>
       <x>490</x>
-      <y>273</y>
+      <y>322</y>
       <w>259</w>
       <h>42</h>
     </coordinates>
@@ -224,9 +224,9 @@ notifySummarySheetDeleted(summarySheet)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>490</x>
-      <y>301</y>
+      <y>350</y>
       <w>14</w>
-      <h>77</h>
+      <h>98</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -235,8 +235,8 @@ notifySummarySheetDeleted(summarySheet)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>399</x>
-      <y>336</y>
-      <w>567</w>
+      <y>385</y>
+      <w>651</w>
       <h>49</h>
     </coordinates>
     <panel_attributes>for each
@@ -248,20 +248,20 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>497</x>
-      <y>343</y>
-      <w>441</w>
+      <y>392</y>
+      <w>539</w>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 updateSummarySheetDeletedDeleted(summarySheet)
 </panel_attributes>
-    <additional_attributes>610.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>750.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>924</x>
-      <y>357</y>
+      <x>1022</x>
+      <y>406</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
@@ -272,19 +272,19 @@ updateSummarySheetDeletedDeleted(summarySheet)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>924</x>
+      <x>1022</x>
       <y>84</y>
       <w>21</w>
-      <h>364</h>
+      <h>413</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;500.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;570.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>868</x>
+      <x>966</x>
       <y>56</y>
       <w>133</w>
       <h>35</h>
@@ -293,5 +293,65 @@ updateSummarySheetDeletedDeleted(summarySheet)
 EventReceiver
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>182</y>
+      <w>420</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+isHolder(user)</panel_attributes>
+    <additional_attributes>580.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>203</y>
+      <w>420</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+isHolder</panel_attributes>
+    <additional_attributes>10.0;20.0;580.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>896</x>
+      <y>196</y>
+      <w>14</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>854</x>
+      <y>56</y>
+      <w>91</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>summarySheet:
+SummarySheet</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>84</y>
+      <w>21</w>
+      <h>406</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;560.0</additional_attributes>
   </element>
 </diagram>

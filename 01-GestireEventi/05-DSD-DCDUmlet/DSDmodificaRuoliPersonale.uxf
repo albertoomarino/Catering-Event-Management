@@ -63,11 +63,10 @@ EventManager</panel_attributes>
       <x>200</x>
       <y>176</y>
       <w>328</w>
-      <h>40</h>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-editStaffRoles(name?, role?, staff, service, 
-turn)</panel_attributes>
+editStaffRoles(name?, role?, staff, ser, turn)</panel_attributes>
     <additional_attributes>390.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>

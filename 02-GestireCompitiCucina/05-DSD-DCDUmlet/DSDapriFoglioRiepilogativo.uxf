@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>230</x>
-      <y>50</y>
-      <w>60</w>
-      <h>110</h>
+      <x>152</x>
+      <y>40</y>
+      <w>48</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>512</x>
       <y>0</y>
-      <w>340</w>
-      <h>40</h>
+      <w>272</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>halign=center
 *1a.1) openSummarySheet*
@@ -30,10 +30,10 @@ fontsize=20
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>390</x>
-      <y>60</y>
-      <w>290</w>
-      <h>50</h>
+      <x>280</x>
+      <y>48</y>
+      <w>232</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>kitchenTaskMgr:
 KitchenTaskManager</panel_attributes>
@@ -42,22 +42,22 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>100</y>
-      <w>30</w>
-      <h>430</h>
+      <x>392</x>
+      <y>80</y>
+      <w>24</w>
+      <h>408</h>
     </coordinates>
     <panel_attributes>lt=.
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>530</x>
-      <y>150</y>
-      <w>20</w>
-      <h>320</h>
+      <x>392</x>
+      <y>120</y>
+      <w>16</w>
+      <h>288</h>
     </coordinates>
     <panel_attributes>
 layer=1</panel_attributes>
@@ -66,10 +66,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>130</y>
-      <w>290</w>
-      <h>40</h>
+      <x>176</x>
+      <y>104</y>
+      <w>232</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 openSummarySheet(summarySheet)</panel_attributes>
@@ -78,21 +78,21 @@ openSummarySheet(summarySheet)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>120</y>
-      <w>30</w>
-      <h>410</h>
+      <x>176</x>
+      <y>96</y>
+      <w>24</w>
+      <h>392</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;390.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;470.0</additional_attributes>
   </element>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>100</x>
-      <y>240</y>
-      <w>810</w>
-      <h>250</h>
+      <x>88</x>
+      <y>224</y>
+      <w>832</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>alt 
 fg=#761C8C
@@ -113,10 +113,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>160</y>
-      <w>360</w>
-      <h>40</h>
+      <x>400</x>
+      <y>128</y>
+      <w>288</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 getCurrentUser( )</panel_attributes>
@@ -125,10 +125,10 @@ getCurrentUser( )</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>200</y>
-      <w>360</w>
-      <h>40</h>
+      <x>400</x>
+      <y>160</y>
+      <w>288</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 user</panel_attributes>
@@ -137,10 +137,10 @@ user</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>760</x>
-      <y>60</y>
-      <w>280</w>
-      <h>50</h>
+      <x>576</x>
+      <y>48</y>
+      <w>224</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>userMgr:
 UserManager</panel_attributes>
@@ -149,10 +149,10 @@ UserManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>880</x>
-      <y>180</y>
-      <w>20</w>
-      <h>40</h>
+      <x>672</x>
+      <y>144</y>
+      <w>16</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -161,22 +161,22 @@ UserManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>100</y>
-      <w>30</w>
-      <h>430</h>
+      <x>672</x>
+      <y>80</y>
+      <w>24</w>
+      <h>408</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>260</y>
-      <w>290</w>
-      <h>40</h>
+      <x>176</x>
+      <y>240</y>
+      <w>232</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -185,12 +185,12 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>100</x>
-      <y>310</y>
-      <w>190</w>
-      <h>50</h>
+      <x>88</x>
+      <y>280</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>[!summarySheet.isHolder(user)]
+    <panel_attributes>[!isHolder)]
 style=wordwrap
 fontsize=11
 fg=#761C8C</panel_attributes>
@@ -199,10 +199,10 @@ fg=#761C8C</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>320</y>
-      <w>290</w>
-      <h>40</h>
+      <x>176</x>
+      <y>288</y>
+      <w>232</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw KitchenTaskException</panel_attributes>
@@ -211,10 +211,10 @@ throw KitchenTaskException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>540</x>
-      <y>380</y>
-      <w>350</w>
-      <h>70</h>
+      <x>400</x>
+      <y>336</y>
+      <w>280</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 setCurrentSummarySheet(summarySheet)</panel_attributes>
@@ -223,10 +223,10 @@ setCurrentSummarySheet(summarySheet)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>540</x>
-      <y>430</y>
-      <w>20</w>
-      <h>20</h>
+      <x>400</x>
+      <y>376</y>
+      <w>16</w>
+      <h>16</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -234,13 +234,73 @@ setCurrentSummarySheet(summarySheet)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>450</y>
-      <w>290</w>
-      <h>40</h>
+      <x>176</x>
+      <y>392</y>
+      <w>232</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 summarySheet</panel_attributes>
     <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>176</y>
+      <w>472</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+isHolder(user)</panel_attributes>
+    <additional_attributes>570.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>200</y>
+      <w>472</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+isHolder</panel_attributes>
+    <additional_attributes>10.0;20.0;570.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>856</x>
+      <y>192</y>
+      <w>16</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>808</x>
+      <y>48</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>summarySheet:
+SummarySheet</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>80</y>
+      <w>24</w>
+      <h>408</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
   </element>
 </diagram>

@@ -29,7 +29,7 @@
     <id>UMLActor</id>
     <coordinates>
       <x>168</x>
-      <y>49</y>
+      <y>35</y>
       <w>42</w>
       <h>77</h>
     </coordinates>
@@ -40,7 +40,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>287</x>
-      <y>56</y>
+      <y>42</y>
       <w>203</w>
       <h>35</h>
     </coordinates>
@@ -52,7 +52,7 @@ KitchenTaskManager</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>385</x>
-      <y>84</y>
+      <y>70</y>
       <w>21</w>
       <h>658</h>
     </coordinates>
@@ -64,7 +64,7 @@ layer=2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>385</x>
-      <y>119</y>
+      <y>105</y>
       <w>14</w>
       <h>553</h>
     </coordinates>
@@ -76,20 +76,19 @@ layer=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>196</x>
-      <y>105</y>
+      <y>91</y>
       <w>203</w>
-      <h>35</h>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-addTask(recipe, preparation, 
-numPreparations)</panel_attributes>
+addTask(recipe, preparation)</panel_attributes>
     <additional_attributes>270.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>196</x>
-      <y>98</y>
+      <y>84</y>
       <w>21</w>
       <h>637</h>
     </coordinates>
@@ -100,7 +99,7 @@ numPreparations)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>77</x>
-      <y>133</y>
+      <y>119</y>
       <w>1148</w>
       <h>567</h>
     </coordinates>
@@ -119,7 +118,7 @@ fontsize=11
     <id>Relation</id>
     <coordinates>
       <x>196</x>
-      <y>147</y>
+      <y>133</y>
       <w>203</w>
       <h>28</h>
     </coordinates>
@@ -131,7 +130,7 @@ throw UseCaseLogicException</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>490</x>
-      <y>14</y>
+      <y>0</y>
       <w>238</w>
       <h>28</h>
     </coordinates>
@@ -146,7 +145,7 @@ fontsize=20
     <id>Relation</id>
     <coordinates>
       <x>392</x>
-      <y>546</y>
+      <y>532</y>
       <w>161</w>
       <h>42</h>
     </coordinates>
@@ -158,7 +157,7 @@ notifyAddedTask(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>392</x>
-      <y>574</y>
+      <y>560</y>
       <w>14</w>
       <h>77</h>
     </coordinates>
@@ -169,7 +168,7 @@ notifyAddedTask(task)</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>301</x>
-      <y>609</y>
+      <y>595</y>
       <w>910</w>
       <h>49</h>
     </coordinates>
@@ -182,7 +181,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>399</x>
-      <y>616</y>
+      <y>602</y>
       <w>756</w>
       <h>35</h>
     </coordinates>
@@ -195,7 +194,7 @@ updateAddedTask(task)
     <id>UMLGeneric</id>
     <coordinates>
       <x>1141</x>
-      <y>630</y>
+      <y>616</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
@@ -207,7 +206,7 @@ updateAddedTask(task)
     <id>Relation</id>
     <coordinates>
       <x>1141</x>
-      <y>84</y>
+      <y>70</y>
       <w>21</w>
       <h>651</h>
     </coordinates>
@@ -219,7 +218,7 @@ updateAddedTask(task)
     <id>UMLGeneric</id>
     <coordinates>
       <x>1085</x>
-      <y>56</y>
+      <y>42</y>
       <w>133</w>
       <h>35</h>
     </coordinates>
@@ -232,7 +231,7 @@ EventReceiver
     <id>UMLGeneric</id>
     <coordinates>
       <x>504</x>
-      <y>56</y>
+      <y>42</y>
       <w>189</w>
       <h>35</h>
     </coordinates>
@@ -244,7 +243,7 @@ SummarySheet</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>595</x>
-      <y>84</y>
+      <y>70</y>
       <w>21</w>
       <h>651</h>
     </coordinates>
@@ -255,20 +254,19 @@ SummarySheet</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>392</x>
-      <y>182</y>
+      <y>168</y>
       <w>217</w>
-      <h>35</h>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-addTask(recipe, preparation, 
-numPreparations)</panel_attributes>
+addTask(recipe, preparation)</panel_attributes>
     <additional_attributes>290.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>595</x>
-      <y>196</y>
+      <y>182</y>
       <w>14</w>
       <h>336</h>
     </coordinates>
@@ -280,7 +278,7 @@ layer=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>602</x>
-      <y>210</y>
+      <y>196</y>
       <w>112</w>
       <h>28</h>
     </coordinates>
@@ -292,7 +290,7 @@ create(recipe)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>700</x>
-      <y>210</y>
+      <y>196</y>
       <w>91</w>
       <h>35</h>
     </coordinates>
@@ -305,7 +303,7 @@ Task
     <id>Relation</id>
     <coordinates>
       <x>742</x>
-      <y>238</y>
+      <y>224</y>
       <w>21</w>
       <h>504</h>
     </coordinates>
@@ -317,7 +315,7 @@ layer=2</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>742</x>
-      <y>245</y>
+      <y>231</y>
       <w>14</w>
       <h>49</h>
     </coordinates>
@@ -329,7 +327,7 @@ layer=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>602</x>
-      <y>280</y>
+      <y>266</y>
       <w>154</w>
       <h>28</h>
     </coordinates>
@@ -341,7 +339,7 @@ task</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>749</x>
-      <y>245</y>
+      <y>231</y>
       <w>133</w>
       <h>49</h>
     </coordinates>
@@ -353,7 +351,7 @@ this.recipe=recipe</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>602</x>
-      <y>301</y>
+      <y>287</y>
       <w>378</w>
       <h>28</h>
     </coordinates>
@@ -365,7 +363,7 @@ add(task)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>910</x>
-      <y>56</y>
+      <y>42</y>
       <w>133</w>
       <h>35</h>
     </coordinates>
@@ -377,7 +375,7 @@ ArrayList&lt;Task&gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>966</x>
-      <y>84</y>
+      <y>70</y>
       <w>21</w>
       <h>651</h>
     </coordinates>
@@ -389,7 +387,7 @@ ArrayList&lt;Task&gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>392</x>
-      <y>518</y>
+      <y>504</y>
       <w>224</w>
       <h>28</h>
     </coordinates>
@@ -401,7 +399,7 @@ task</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>770</x>
-      <y>56</y>
+      <y>42</y>
       <w>133</w>
       <h>35</h>
     </coordinates>
@@ -413,7 +411,7 @@ Recipe</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>833</x>
-      <y>84</y>
+      <y>70</y>
       <w>21</w>
       <h>651</h>
     </coordinates>
@@ -425,7 +423,7 @@ Recipe</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>833</x>
-      <y>357</y>
+      <y>343</y>
       <w>14</w>
       <h>147</h>
     </coordinates>
@@ -437,19 +435,19 @@ layer=1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>602</x>
-      <y>343</y>
+      <y>329</y>
       <w>245</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-addPreparation(preparation, numPreparations)</panel_attributes>
+addPreparation(preparation)</panel_attributes>
     <additional_attributes>330.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>840</x>
-      <y>364</y>
+      <y>350</y>
       <w>175</w>
       <h>49</h>
     </coordinates>
@@ -461,19 +459,19 @@ this.preparation=preparation</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>840</x>
-      <y>434</y>
+      <y>420</y>
       <w>154</w>
       <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-create(numPreparations)</panel_attributes>
+create()</panel_attributes>
     <additional_attributes>200.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>980</x>
-      <y>434</y>
+      <y>420</y>
       <w>112</w>
       <h>35</h>
     </coordinates>
@@ -485,7 +483,7 @@ ArrayList&lt;Recipe&gt;</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>728</x>
-      <y>413</y>
+      <y>399</y>
       <w>378</w>
       <h>77</h>
     </coordinates>
@@ -501,7 +499,7 @@ fontsize=11
     <id>Relation</id>
     <coordinates>
       <x>196</x>
-      <y>679</y>
+      <y>665</y>
       <w>210</w>
       <h>28</h>
     </coordinates>
@@ -513,7 +511,7 @@ task</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>966</x>
-      <y>315</y>
+      <y>301</y>
       <w>14</w>
       <h>14</h>
     </coordinates>
