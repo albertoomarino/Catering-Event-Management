@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>8</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>176</x>
-      <y>96</y>
-      <w>56</w>
-      <h>88</h>
+      <x>234</x>
+      <y>72</y>
+      <w>42</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>144</y>
-      <w>24</w>
-      <h>904</h>
+      <x>252</x>
+      <y>108</y>
+      <w>18</w>
+      <h>678</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1110.0</additional_attributes>
@@ -27,9 +27,9 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>408</x>
-      <y>112</y>
-      <w>232</w>
-      <h>40</h>
+      <y>84</y>
+      <w>174</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>eventMgr:
 EventManager</panel_attributes>
@@ -38,10 +38,10 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
-      <y>144</y>
-      <w>24</w>
-      <h>904</h>
+      <x>486</x>
+      <y>108</y>
+      <w>18</w>
+      <h>678</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1110.0</additional_attributes>
@@ -49,10 +49,10 @@ EventManager</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>512</x>
-      <y>192</y>
-      <w>16</w>
-      <h>736</h>
+      <x>486</x>
+      <y>144</y>
+      <w>12</w>
+      <h>552</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -60,10 +60,10 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>176</y>
-      <w>328</w>
-      <h>32</h>
+      <x>252</x>
+      <y>132</y>
+      <w>246</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 editStaffRoles(name?, role?, staff, ser, turn)</panel_attributes>
@@ -72,10 +72,10 @@ editStaffRoles(name?, role?, staff, ser, turn)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>0</x>
-      <y>528</y>
-      <w>1632</w>
-      <h>424</h>
+      <x>102</x>
+      <y>396</y>
+      <w>1224</w>
+      <h>318</h>
     </coordinates>
     <panel_attributes>alt 
 fg=#761C8C
@@ -146,10 +146,10 @@ fontsize=11
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>664</x>
-      <y>112</y>
-      <w>224</w>
-      <h>40</h>
+      <x>600</x>
+      <y>84</y>
+      <w>168</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>staff: 
 ServiceStaff</panel_attributes>
@@ -158,10 +158,10 @@ ServiceStaff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>768</x>
-      <y>144</y>
-      <w>24</w>
-      <h>896</h>
+      <x>678</x>
+      <y>108</y>
+      <w>18</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1100.0</additional_attributes>
@@ -169,10 +169,10 @@ ServiceStaff</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1152</x>
-      <y>112</y>
-      <w>152</w>
-      <h>40</h>
+      <x>966</x>
+      <y>84</y>
+      <w>114</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>er:
 EventReceiver
@@ -183,10 +183,10 @@ EventReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1216</x>
-      <y>144</y>
-      <w>24</w>
-      <h>896</h>
+      <x>1014</x>
+      <y>108</y>
+      <w>18</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -195,10 +195,10 @@ EventReceiver
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>904</x>
-      <y>112</y>
-      <w>224</w>
-      <h>40</h>
+      <x>780</x>
+      <y>84</y>
+      <w>168</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>eventMgr.currentRecurringEvent: 
 RecurringEvent</panel_attributes>
@@ -207,10 +207,10 @@ RecurringEvent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>144</y>
-      <w>24</w>
-      <h>896</h>
+      <x>858</x>
+      <y>108</y>
+      <w>18</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1100.0</additional_attributes>
@@ -218,10 +218,10 @@ RecurringEvent</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>816</x>
-      <y>56</y>
-      <w>168</w>
-      <h>40</h>
+      <x>714</x>
+      <y>42</y>
+      <w>126</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>eventMgr.currentEvent: 
 Event
@@ -231,10 +231,10 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>888</x>
-      <y>88</y>
-      <w>24</w>
-      <h>952</h>
+      <x>768</x>
+      <y>66</y>
+      <w>18</w>
+      <h>714</h>
     </coordinates>
     <panel_attributes>lt=.
 fg=BLACK</panel_attributes>
@@ -243,10 +243,10 @@ fg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>912</y>
-      <w>328</w>
-      <h>32</h>
+      <x>252</x>
+      <y>684</y>
+      <w>246</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -255,10 +255,10 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>536</y>
-      <w>264</w>
-      <h>40</h>
+      <x>492</x>
+      <y>402</y>
+      <w>198</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 modifyStaff(name?, role?, staff, service, 
@@ -268,10 +268,10 @@ turn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>768</x>
-      <y>552</y>
-      <w>16</w>
-      <h>192</h>
+      <x>678</x>
+      <y>414</y>
+      <w>12</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -279,10 +279,10 @@ turn)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1064</x>
-      <y>56</y>
-      <w>152</w>
-      <h>40</h>
+      <x>900</x>
+      <y>42</y>
+      <w>114</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>ser:
 Service
@@ -293,10 +293,10 @@ Service
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1128</x>
-      <y>88</y>
-      <w>24</w>
-      <h>952</h>
+      <x>948</x>
+      <y>66</y>
+      <w>18</w>
+      <h>714</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -305,10 +305,10 @@ Service
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1320</x>
-      <y>112</y>
-      <w>152</w>
-      <h>40</h>
+      <x>1092</x>
+      <y>84</y>
+      <w>114</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>turn:
 ServiceTurn
@@ -319,10 +319,10 @@ ServiceTurn
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1384</x>
-      <y>144</y>
-      <w>24</w>
-      <h>896</h>
+      <x>1140</x>
+      <y>108</y>
+      <w>18</w>
+      <h>672</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -331,10 +331,10 @@ ServiceTurn
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>664</x>
-      <y>576</y>
-      <w>288</w>
-      <h>72</h>
+      <x>600</x>
+      <y>432</y>
+      <w>216</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>opt 
 
@@ -347,10 +347,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>776</x>
-      <y>584</y>
-      <w>152</w>
-      <h>56</h>
+      <x>684</x>
+      <y>438</y>
+      <w>114</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.name=name</panel_attributes>
@@ -359,10 +359,10 @@ this.name=name</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>664</x>
-      <y>656</y>
-      <w>288</w>
-      <h>72</h>
+      <x>600</x>
+      <y>492</y>
+      <w>216</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>opt 
 
@@ -375,10 +375,10 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>776</x>
-      <y>664</y>
-      <w>136</w>
-      <h>56</h>
+      <x>684</x>
+      <y>498</y>
+      <w>102</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.role=role</panel_attributes>
@@ -387,10 +387,10 @@ this.role=role</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1480</x>
-      <y>112</y>
-      <w>256</w>
-      <h>40</h>
+      <x>1212</x>
+      <y>84</y>
+      <w>192</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>eventMgr.currentRecurringEvent.eventInstances: 
 ArrayList&lt;Event&gt;</panel_attributes>
@@ -399,10 +399,10 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1608</x>
-      <y>144</y>
-      <w>24</w>
-      <h>888</h>
+      <x>1308</x>
+      <y>108</y>
+      <w>18</w>
+      <h>666</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1090.0</additional_attributes>
@@ -410,10 +410,10 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>416</x>
-      <y>800</y>
-      <w>872</w>
-      <h>64</h>
+      <x>414</x>
+      <y>600</y>
+      <w>654</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>for each
 er in receivers
@@ -423,10 +423,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>744</y>
-      <w>208</w>
-      <h>48</h>
+      <x>492</x>
+      <y>558</y>
+      <w>156</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 notifyStaffRolesModify(staff)</panel_attributes>
@@ -435,10 +435,10 @@ notifyStaffRolesModify(staff)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>520</x>
-      <y>760</y>
-      <w>16</w>
-      <h>112</h>
+      <x>492</x>
+      <y>570</y>
+      <w>12</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -446,10 +446,10 @@ notifyStaffRolesModify(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>824</y>
-      <w>704</w>
-      <h>40</h>
+      <x>498</x>
+      <y>618</y>
+      <w>528</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 updateStaffRolesModify(staff)
@@ -459,10 +459,10 @@ updateStaffRolesModify(staff)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1216</x>
-      <y>840</y>
-      <w>16</w>
-      <h>16</h>
+      <x>1014</x>
+      <y>630</y>
+      <w>12</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -471,10 +471,10 @@ updateStaffRolesModify(staff)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>208</y>
-      <w>384</w>
-      <h>32</h>
+      <x>492</x>
+      <y>156</y>
+      <w>288</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 includeService(ser)</panel_attributes>
@@ -483,10 +483,10 @@ includeService(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>232</y>
-      <w>384</w>
-      <h>32</h>
+      <x>492</x>
+      <y>174</y>
+      <w>288</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 includeService</panel_attributes>
@@ -495,10 +495,10 @@ includeService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>256</y>
-      <w>624</w>
-      <h>32</h>
+      <x>492</x>
+      <y>192</y>
+      <w>468</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 ownsTurn(turn)</panel_attributes>
@@ -507,10 +507,10 @@ ownsTurn(turn)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>280</y>
-      <w>624</w>
-      <h>32</h>
+      <x>492</x>
+      <y>210</y>
+      <w>468</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ownsTurn</panel_attributes>
@@ -519,10 +519,10 @@ ownsTurn</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>304</y>
-      <w>880</w>
-      <h>32</h>
+      <x>492</x>
+      <y>228</y>
+      <w>660</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 owns(staff)</panel_attributes>
@@ -531,10 +531,10 @@ owns(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>328</y>
-      <w>880</w>
-      <h>32</h>
+      <x>492</x>
+      <y>246</y>
+      <w>660</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 owns</panel_attributes>
@@ -543,10 +543,10 @@ owns</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>376</x>
-      <y>352</y>
-      <w>672</w>
-      <h>88</h>
+      <x>384</x>
+      <y>264</y>
+      <w>504</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>for each
 ev in eventInstances
@@ -556,10 +556,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>368</y>
-      <w>504</w>
-      <h>32</h>
+      <x>492</x>
+      <y>276</y>
+      <w>378</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 allEventIncludeService(ser)</panel_attributes>
@@ -568,10 +568,10 @@ allEventIncludeService(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>408</y>
-      <w>504</w>
-      <h>32</h>
+      <x>492</x>
+      <y>306</y>
+      <w>378</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 allEventIncludeService</panel_attributes>
@@ -580,10 +580,10 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>888</x>
-      <y>224</y>
-      <w>16</w>
-      <h>24</h>
+      <x>768</x>
+      <y>168</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -591,10 +591,10 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1128</x>
-      <y>272</y>
-      <w>16</w>
-      <h>24</h>
+      <x>948</x>
+      <y>204</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -602,10 +602,10 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1384</x>
-      <y>320</y>
-      <w>16</w>
-      <h>24</h>
+      <x>1140</x>
+      <y>240</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -613,10 +613,10 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1008</x>
-      <y>384</y>
-      <w>16</w>
-      <h>40</h>
+      <x>858</x>
+      <y>288</y>
+      <w>12</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -624,10 +624,10 @@ allEventIncludeService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>456</y>
-      <w>880</w>
-      <h>32</h>
+      <x>492</x>
+      <y>342</y>
+      <w>660</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 isAvailable(staff)</panel_attributes>
@@ -636,10 +636,10 @@ isAvailable(staff)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1384</x>
-      <y>472</y>
-      <w>16</w>
-      <h>24</h>
+      <x>1140</x>
+      <y>354</y>
+      <w>12</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -647,10 +647,10 @@ isAvailable(staff)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>480</y>
-      <w>880</w>
-      <h>32</h>
+      <x>492</x>
+      <y>360</y>
+      <w>660</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 isAvailable</panel_attributes>
@@ -659,10 +659,10 @@ isAvailable</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>832</x>
+      <x>726</x>
       <y>0</y>
-      <w>272</w>
-      <h>32</h>
+      <w>204</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>halign=center
 *5a.1) editStaffRoles*
