@@ -253,7 +253,7 @@ fg=blue</panel_attributes>
       <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-updateSummarySheetDeletedDeleted(summarySheet)
+updateSummarySheetDeleted(summarySheet)
 </panel_attributes>
     <additional_attributes>750.0;20.0;10.0;20.0</additional_attributes>
   </element>

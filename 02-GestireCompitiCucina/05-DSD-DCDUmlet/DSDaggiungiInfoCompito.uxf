@@ -4,7 +4,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>384</x>
+      <x>352</x>
       <y>48</y>
       <w>232</w>
       <h>40</h>
@@ -16,7 +16,7 @@ KitchenTaskManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
+      <x>232</x>
       <y>104</y>
       <w>248</w>
       <h>32</h>
@@ -28,7 +28,7 @@ addTaskInfo(task, quantity?, portion?, time)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
+      <x>232</x>
       <y>96</y>
       <w>24</w>
       <h>656</h>
@@ -39,7 +39,7 @@ addTaskInfo(task, quantity?, portion?, time)</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>240</x>
+      <x>208</x>
       <y>40</y>
       <w>56</w>
       <h>88</h>
@@ -50,7 +50,7 @@ addTaskInfo(task, quantity?, portion?, time)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
+      <x>584</x>
       <y>0</y>
       <w>272</w>
       <h>32</h>
@@ -65,7 +65,7 @@ fontsize=20
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>496</x>
+      <x>464</x>
       <y>80</y>
       <w>24</w>
       <h>680</h>
@@ -77,7 +77,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>496</x>
+      <x>464</x>
       <y>120</y>
       <w>16</w>
       <h>576</h>
@@ -89,7 +89,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
+      <x>232</x>
       <y>192</y>
       <w>248</w>
       <h>32</h>
@@ -101,7 +101,7 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>120</x>
+      <x>88</x>
       <y>184</y>
       <w>1056</w>
       <h>536</h>
@@ -121,7 +121,7 @@ fontsize=11
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1032</x>
+      <x>1000</x>
       <y>48</y>
       <w>152</w>
       <h>40</h>
@@ -134,7 +134,7 @@ EventReceiver
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>400</x>
+      <x>368</x>
       <y>600</y>
       <w>744</w>
       <h>56</h>
@@ -147,7 +147,7 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>528</y>
       <w>192</w>
       <h>48</h>
@@ -159,7 +159,7 @@ notifyAddTaskInfo(task)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>560</y>
       <w>16</w>
       <h>112</h>
@@ -170,7 +170,7 @@ notifyAddTaskInfo(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>512</x>
+      <x>480</x>
       <y>608</y>
       <w>608</w>
       <h>40</h>
@@ -183,7 +183,7 @@ updateAddTaskInfo(task)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>128</y>
       <w>248</w>
       <h>32</h>
@@ -195,7 +195,7 @@ contains(task)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>152</y>
       <w>248</w>
       <h>32</h>
@@ -207,7 +207,7 @@ contains</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>736</x>
+      <x>704</x>
       <y>144</y>
       <w>16</w>
       <h>24</h>
@@ -219,7 +219,7 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>736</x>
+      <x>704</x>
       <y>80</y>
       <w>24</w>
       <h>672</h>
@@ -231,7 +231,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>632</x>
+      <x>600</x>
       <y>48</y>
       <w>216</w>
       <h>40</h>
@@ -243,7 +243,7 @@ SummarySheet</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>856</x>
+      <x>824</x>
       <y>48</y>
       <w>96</w>
       <h>40</h>
@@ -255,7 +255,7 @@ Task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>896</x>
+      <x>864</x>
       <y>80</y>
       <w>24</w>
       <h>672</h>
@@ -267,7 +267,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>248</y>
       <w>408</w>
       <h>32</h>
@@ -279,7 +279,7 @@ addTaskInfo(quantity?, portion?, time)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>896</x>
+      <x>864</x>
       <y>264</y>
       <w>16</w>
       <h>248</h>
@@ -291,7 +291,7 @@ layer=1</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>792</x>
+      <x>760</x>
       <y>280</y>
       <w>288</w>
       <h>72</h>
@@ -307,7 +307,7 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
+      <x>872</x>
       <y>288</y>
       <w>176</w>
       <h>56</h>
@@ -319,7 +319,7 @@ this.quantity=quantity</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>792</x>
+      <x>760</x>
       <y>360</y>
       <w>288</w>
       <h>72</h>
@@ -335,7 +335,7 @@ fontsize=11
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
+      <x>872</x>
       <y>368</y>
       <w>168</w>
       <h>56</h>
@@ -347,7 +347,7 @@ this.portion=portion</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>904</x>
+      <x>872</x>
       <y>440</y>
       <w>184</w>
       <h>56</h>
@@ -359,7 +359,7 @@ this.runningTime=time</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
+      <x>472</x>
       <y>496</y>
       <w>408</w>
       <h>32</h>
@@ -371,7 +371,7 @@ task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
+      <x>232</x>
       <y>680</y>
       <w>248</w>
       <h>32</h>
@@ -383,7 +383,7 @@ task</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1104</x>
+      <x>1072</x>
       <y>80</y>
       <w>24</w>
       <h>672</h>
@@ -395,7 +395,7 @@ layer=2</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1104</x>
+      <x>1072</x>
       <y>624</y>
       <w>16</w>
       <h>16</h>
