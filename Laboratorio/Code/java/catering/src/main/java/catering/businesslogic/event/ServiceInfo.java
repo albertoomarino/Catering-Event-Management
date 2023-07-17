@@ -35,6 +35,7 @@ public class ServiceInfo implements EventItemInfo {
     }
 
     public ServiceInfo() {
+
     }
 
     public void setEvent(EventInfo ev) {
