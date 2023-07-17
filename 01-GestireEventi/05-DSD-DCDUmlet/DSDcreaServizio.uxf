@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>6</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>306</x>
-      <y>90</y>
-      <w>24</w>
-      <h>996</h>
+      <x>231</x>
+      <y>84</y>
+      <w>28</w>
+      <h>1162</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;20.0;1640.0</additional_attributes>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>294</x>
-      <y>54</y>
-      <w>36</w>
-      <h>66</h>
+      <x>217</x>
+      <y>42</y>
+      <w>42</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>384</x>
-      <y>60</y>
-      <w>174</w>
-      <h>30</h>
+      <x>322</x>
+      <y>49</y>
+      <w>203</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>eventMgr:
 EventManager</panel_attributes>
@@ -38,10 +38,10 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>468</x>
-      <y>84</y>
-      <w>18</w>
-      <h>1008</h>
+      <x>420</x>
+      <y>77</y>
+      <w>21</w>
+      <h>1176</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1660.0</additional_attributes>
@@ -49,10 +49,10 @@ EventManager</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>306</x>
-      <y>102</y>
-      <w>174</w>
-      <h>24</h>
+      <x>231</x>
+      <y>98</y>
+      <w>203</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 createService(timeslot, location)</panel_attributes>
@@ -61,10 +61,10 @@ createService(timeslot, location)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
-      <y>114</y>
-      <w>12</w>
-      <h>918</h>
+      <x>420</x>
+      <y>112</y>
+      <w>14</w>
+      <h>1071</h>
     </coordinates>
     <panel_attributes>
 layer=1</panel_attributes>
@@ -73,10 +73,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>192</x>
+      <x>98</x>
       <y>126</y>
-      <w>966</w>
-      <h>924</h>
+      <w>1127</w>
+      <h>1078</h>
     </coordinates>
     <panel_attributes>alt 
 fg=#761C8C
@@ -145,10 +145,10 @@ fontsize=11
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>678</x>
-      <y>180</y>
-      <w>72</w>
-      <h>30</h>
+      <x>665</x>
+      <y>189</y>
+      <w>84</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>ser: 
 Service</panel_attributes>
@@ -157,10 +157,10 @@ Service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>180</y>
-      <w>216</w>
-      <h>24</h>
+      <x>427</x>
+      <y>189</y>
+      <w>252</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 create(timeslot, location)</panel_attributes>
@@ -169,10 +169,10 @@ create(timeslot, location)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>708</x>
-      <y>210</y>
-      <w>12</w>
-      <h>210</h>
+      <x>700</x>
+      <y>224</y>
+      <w>14</w>
+      <h>245</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -180,10 +180,10 @@ create(timeslot, location)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>708</x>
-      <y>204</y>
-      <w>18</w>
-      <h>882</h>
+      <x>700</x>
+      <y>217</y>
+      <w>21</w>
+      <h>1029</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1450.0</additional_attributes>
@@ -191,10 +191,10 @@ create(timeslot, location)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>222</y>
-      <w>132</w>
-      <h>42</h>
+      <x>707</x>
+      <y>238</y>
+      <w>154</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.timeslot=timeslot</panel_attributes>
@@ -203,10 +203,10 @@ this.timeslot=timeslot</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>264</y>
-      <w>132</w>
-      <h>42</h>
+      <x>707</x>
+      <y>287</y>
+      <w>154</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.location=location</panel_attributes>
@@ -215,10 +215,10 @@ this.location=location</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>834</x>
-      <y>342</y>
-      <w>108</w>
-      <h>30</h>
+      <x>847</x>
+      <y>378</y>
+      <w>126</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>services: 
 ArrayList&lt;Service&gt;</panel_attributes>
@@ -227,10 +227,10 @@ ArrayList&lt;Service&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>408</y>
-      <w>246</w>
-      <h>24</h>
+      <x>427</x>
+      <y>455</y>
+      <w>287</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ser</panel_attributes>
@@ -239,10 +239,10 @@ ser</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>432</y>
-      <w>150</w>
-      <h>36</h>
+      <x>427</x>
+      <y>483</y>
+      <w>175</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 notifyServiceCreated(ser)</panel_attributes>
@@ -251,10 +251,10 @@ notifyServiceCreated(ser)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>474</x>
-      <y>456</y>
-      <w>12</w>
-      <h>90</h>
+      <x>427</x>
+      <y>511</y>
+      <w>14</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -262,10 +262,10 @@ notifyServiceCreated(ser)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>390</x>
-      <y>474</y>
-      <w>606</w>
-      <h>54</h>
+      <x>329</x>
+      <y>532</y>
+      <w>707</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>for each
 er in receivers
@@ -275,10 +275,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>498</y>
-      <w>492</w>
-      <h>30</h>
+      <x>434</x>
+      <y>560</y>
+      <w>574</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 updateServiceCreated(ser)
@@ -288,10 +288,10 @@ updateServiceCreated(ser)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>960</x>
-      <y>510</y>
-      <w>12</w>
-      <h>12</h>
+      <x>994</x>
+      <y>574</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -300,10 +300,10 @@ updateServiceCreated(ser)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>912</x>
-      <y>60</y>
-      <w>114</w>
-      <h>30</h>
+      <x>938</x>
+      <y>49</y>
+      <w>133</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>er:
 EventReceiver
@@ -314,10 +314,10 @@ EventReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>84</y>
-      <w>18</w>
-      <h>1002</h>
+      <x>994</x>
+      <y>77</y>
+      <w>21</w>
+      <h>1169</h>
     </coordinates>
     <panel_attributes>lt=.
 </panel_attributes>
@@ -326,10 +326,10 @@ EventReceiver
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>546</y>
-      <w>168</w>
-      <h>24</h>
+      <x>238</x>
+      <y>616</y>
+      <w>196</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 ser</panel_attributes>
@@ -338,10 +338,10 @@ ser</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>738</x>
-      <y>60</y>
-      <w>168</w>
-      <h>30</h>
+      <x>735</x>
+      <y>49</y>
+      <w>196</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>eventMgr.currentEvent: 
 Event</panel_attributes>
@@ -350,10 +350,10 @@ Event</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
-      <y>84</y>
-      <w>18</w>
-      <h>1002</h>
+      <x>826</x>
+      <y>77</y>
+      <w>21</w>
+      <h>1169</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1650.0</additional_attributes>
@@ -361,10 +361,10 @@ Event</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>306</y>
-      <w>126</w>
-      <h>42</h>
+      <x>707</x>
+      <y>336</y>
+      <w>147</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.state="created"</panel_attributes>
@@ -373,10 +373,10 @@ this.state="created"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>882</x>
-      <y>366</y>
-      <w>18</w>
-      <h>720</h>
+      <x>903</x>
+      <y>406</y>
+      <w>21</w>
+      <h>840</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1180.0</additional_attributes>
@@ -384,10 +384,10 @@ this.state="created"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>714</x>
-      <y>384</y>
-      <w>180</w>
-      <h>24</h>
+      <x>707</x>
+      <y>427</y>
+      <w>210</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(ser)</panel_attributes>
@@ -396,10 +396,10 @@ add(ser)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>882</x>
-      <y>396</y>
-      <w>12</w>
-      <h>12</h>
+      <x>903</x>
+      <y>441</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -407,10 +407,10 @@ add(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>306</x>
-      <y>138</y>
-      <w>174</w>
-      <h>24</h>
+      <x>231</x>
+      <y>140</y>
+      <w>203</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 throw UseCaseLogicException</panel_attributes>
@@ -419,10 +419,10 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
-      <y>18</y>
-      <w>204</w>
-      <h>24</h>
+      <x>462</x>
+      <y>0</y>
+      <w>238</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>halign=center
 *3) createService*
@@ -434,10 +434,10 @@ fontsize=20
   <element>
     <id>Text</id>
     <coordinates>
-      <x>192</x>
-      <y>174</y>
-      <w>114</w>
-      <h>24</h>
+      <x>98</x>
+      <y>182</y>
+      <w>133</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>[currentEvent != null 
 &amp;&amp; currentRecurringEvent == null]
@@ -449,10 +449,10 @@ fg=#761C8C</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>192</x>
-      <y>576</y>
-      <w>114</w>
-      <h>30</h>
+      <x>98</x>
+      <y>651</y>
+      <w>133</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>[currentEvent == null 
 &amp;&amp; currentRecurringEvent != null]
@@ -464,10 +464,10 @@ fg=#761C8C</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>564</x>
-      <y>60</y>
-      <w>168</w>
-      <h>30</h>
+      <x>532</x>
+      <y>49</y>
+      <w>196</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>eventMgr.currentRecurringEvent: 
 RecurringEvent</panel_attributes>
@@ -476,10 +476,10 @@ RecurringEvent</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>642</x>
-      <y>84</y>
-      <w>18</w>
-      <h>1002</h>
+      <x>623</x>
+      <y>77</y>
+      <w>21</w>
+      <h>1169</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1650.0</additional_attributes>
@@ -487,10 +487,10 @@ RecurringEvent</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>372</x>
-      <y>582</y>
-      <w>612</w>
-      <h>270</h>
+      <x>308</x>
+      <y>658</y>
+      <w>714</w>
+      <h>315</h>
     </coordinates>
     <panel_attributes>for each
 ev in eventInstances
@@ -500,10 +500,10 @@ fg=blue</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>654</x>
-      <y>594</y>
-      <w>54</w>
-      <h>30</h>
+      <x>637</x>
+      <y>672</y>
+      <w>63</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>ser: 
 Service</panel_attributes>
@@ -512,10 +512,10 @@ Service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>594</y>
-      <w>192</w>
-      <h>24</h>
+      <x>427</x>
+      <y>672</y>
+      <w>224</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 create(timeslot, location)</panel_attributes>
@@ -524,10 +524,10 @@ create(timeslot, location)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>672</x>
-      <y>624</y>
-      <w>12</w>
-      <h>258</h>
+      <x>658</x>
+      <y>707</y>
+      <w>14</w>
+      <h>301</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -535,10 +535,10 @@ create(timeslot, location)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>678</x>
-      <y>636</y>
-      <w>132</w>
-      <h>42</h>
+      <x>665</x>
+      <y>721</y>
+      <w>154</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.timeslot=timeslot</panel_attributes>
@@ -547,10 +547,10 @@ this.timeslot=timeslot</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>678</x>
-      <y>678</y>
-      <w>132</w>
-      <h>42</h>
+      <x>665</x>
+      <y>770</y>
+      <w>154</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.location=location</panel_attributes>
@@ -559,10 +559,10 @@ this.location=location</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>798</x>
-      <y>756</y>
-      <w>108</w>
-      <h>30</h>
+      <x>805</x>
+      <y>861</y>
+      <w>126</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>services: 
 ArrayList&lt;Service&gt;</panel_attributes>
@@ -571,10 +571,10 @@ ArrayList&lt;Service&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>870</y>
-      <w>210</w>
-      <h>24</h>
+      <x>427</x>
+      <y>994</y>
+      <w>245</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 services</panel_attributes>
@@ -583,10 +583,10 @@ services</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>678</x>
-      <y>720</y>
-      <w>126</w>
-      <h>42</h>
+      <x>665</x>
+      <y>819</y>
+      <w>147</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 this.state="created"</panel_attributes>
@@ -595,10 +595,10 @@ this.state="created"</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>678</x>
-      <y>798</y>
-      <w>180</w>
-      <h>24</h>
+      <x>665</x>
+      <y>910</y>
+      <w>210</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 add(ser)</panel_attributes>
@@ -607,10 +607,10 @@ add(ser)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>846</x>
-      <y>810</y>
-      <w>12</w>
-      <h>12</h>
+      <x>861</x>
+      <y>924</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -618,10 +618,10 @@ add(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>672</x>
-      <y>618</y>
-      <w>18</w>
-      <h>474</h>
+      <x>658</x>
+      <y>700</y>
+      <w>21</w>
+      <h>553</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;770.0</additional_attributes>
@@ -629,10 +629,10 @@ add(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>846</x>
-      <y>780</y>
-      <w>18</w>
-      <h>306</h>
+      <x>861</x>
+      <y>889</y>
+      <w>21</w>
+      <h>357</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;490.0</additional_attributes>
@@ -640,10 +640,10 @@ add(ser)</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
-      <y>894</y>
-      <w>168</w>
-      <h>36</h>
+      <x>427</x>
+      <y>1022</y>
+      <w>196</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;
 notifyServiceCreated(services)</panel_attributes>
@@ -652,10 +652,10 @@ notifyServiceCreated(services)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>474</x>
-      <y>918</y>
-      <w>12</w>
-      <h>90</h>
+      <x>427</x>
+      <y>1050</y>
+      <w>14</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -663,10 +663,10 @@ notifyServiceCreated(services)</panel_attributes>
   <element>
     <id>UMLFrame</id>
     <coordinates>
-      <x>390</x>
-      <y>936</y>
-      <w>606</w>
-      <h>54</h>
+      <x>329</x>
+      <y>1071</y>
+      <w>707</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>for each
 er in receivers
@@ -676,10 +676,10 @@ fg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>960</y>
-      <w>492</w>
-      <h>30</h>
+      <x>434</x>
+      <y>1099</y>
+      <w>574</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 updateServiceCreated(services)
@@ -689,10 +689,10 @@ updateServiceCreated(services)
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>960</x>
-      <y>972</y>
-      <w>12</w>
-      <h>12</h>
+      <x>994</x>
+      <y>1113</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>
 </panel_attributes>
@@ -701,10 +701,10 @@ updateServiceCreated(services)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>312</x>
-      <y>1020</y>
-      <w>168</w>
-      <h>24</h>
+      <x>238</x>
+      <y>1169</y>
+      <w>196</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 services</panel_attributes>
@@ -713,10 +713,10 @@ services</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1032</x>
-      <y>60</y>
-      <w>192</w>
-      <h>30</h>
+      <x>1078</x>
+      <y>49</y>
+      <w>224</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>eventMgr.currentRecurringEvent.eventInstances: 
 ArrayList&lt;Event&gt;</panel_attributes>
@@ -725,10 +725,10 @@ ArrayList&lt;Event&gt;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1128</x>
-      <y>84</y>
-      <w>18</w>
-      <h>996</h>
+      <x>1190</x>
+      <y>77</y>
+      <w>21</w>
+      <h>1162</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;1640.0</additional_attributes>
