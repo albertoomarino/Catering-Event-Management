@@ -35,16 +35,12 @@ public class Menu {
 
     public Menu(User user, String title, String[] menuFeatures) {
         id = 0;
-
         if (title != null) {
             this.title = title;
         }
 
         this.owner = user;
-
         this.featuresMap = FXCollections.observableHashMap();
-
-
         for (String s : menuFeatures) {
             this.featuresMap.put(s, false);
         }
@@ -132,7 +128,6 @@ public class Menu {
                 "pubblicato," + (inUse ? " " : " non ") + "in uso";
     }
 
-
     public int getId() {
         return id;
     }
@@ -199,11 +194,9 @@ public class Menu {
         this.title = title;
     }
 
-
     public void setPublished(boolean b) {
         published = b;
     }
-
 
     public boolean isInUse() {
         return this.inUse;
@@ -265,7 +258,6 @@ public class Menu {
         return null;
     }
 
-
     public void removeSection(Section s, boolean deleteItems) {
         if (!deleteItems) {
             this.freeItems.addAll(s.getItems());
@@ -281,12 +273,10 @@ public class Menu {
         return freeItems.size();
     }
 
-
     public void moveSection(Section sec, int position) {
         sections.remove(sec);
         sections.add(position, sec);
     }
-
 
     public void changeItemSection(MenuItem mi, Section oldsec, Section sec) {
         if (oldsec == null) {
@@ -314,7 +304,6 @@ public class Menu {
     }
 
     // STATIC METHODS FOR PERSISTENCE
-
     public static void saveNewMenu(Menu m) {
         String menuInsert = "INSERT INTO catering.Menus (title, owner_id, published) VALUES (?, ?, ?);";
         int[] result = PersistenceManager.executeBatchUpdate(menuInsert, 1, new BatchUpdateHandler() {
@@ -334,16 +323,16 @@ public class Menu {
             }
         });
 
-        if (result[0] > 0) { // menu effettivamente inserito
-            // salva le features
+        if (result[0] > 0) { // Menu effettivamente inserito
+            // Salva le features
             featuresToDB(m);
 
-            // salva le sezioni
+            // Salva le sezioni
             if (m.sections.size() > 0) {
                 Section.saveAllNewSections(m.id, m.sections);
             }
 
-            // salva le voci libere
+            // Salva le voci libere
             if (m.freeItems.size() > 0) {
                 MenuItem.saveAllNewItems(m.id, 0, m.freeItems);
             }
@@ -352,8 +341,7 @@ public class Menu {
     }
 
     public static void saveMenuTitle(Menu m) {
-        String upd = "UPDATE Menus SET title = '" + PersistenceManager.escapeString(m.getTitle()) + "'" +
-                " WHERE id = " + m.getId();
+        String upd = "UPDATE Menus SET title = '" + PersistenceManager.escapeString(m.getTitle()) + "'" + " WHERE id = " + m.getId();
         PersistenceManager.executeUpdate(upd);
     }
 
@@ -364,7 +352,6 @@ public class Menu {
 
         featuresToDB(m);
     }
-
 
     public static void saveMenuPublished(Menu m) {
         String upd = "UPDATE Menus SET published = " + m.published +
@@ -386,11 +373,10 @@ public class Menu {
 
             @Override
             public void handleGeneratedIds(ResultSet rs, int count) throws SQLException {
-                // non ci sono id autogenerati in MenuFeatures
+                // Non ci sono id autogenerati in MenuFeatures
             }
         });
     }
-
 
     public static void deleteMenu(Menu m) {
         // delete sections
@@ -404,7 +390,6 @@ public class Menu {
         // delete features
         String delFeat = "DELETE FROM MenuFeatures WHERE menu_id = " + m.getId();
         PersistenceManager.executeUpdate(delFeat);
-
 
         String del = "DELETE FROM Menus WHERE id = " + m.getId();
         PersistenceManager.executeUpdate(del);
@@ -522,7 +507,6 @@ public class Menu {
             }
         });
     }
-
 
     public static void saveFreeItemOrder(Menu m) {
         String upd = "UPDATE MenuItems SET position = ? WHERE id = ?";

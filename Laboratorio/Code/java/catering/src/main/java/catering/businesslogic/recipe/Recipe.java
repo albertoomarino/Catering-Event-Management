@@ -55,7 +55,6 @@ public class Recipe {
     }
 
     // STATIC METHODS FOR PERSISTENCE
-
     public static ObservableList<Recipe> loadAllRecipes() {
         String query = "SELECT * FROM Recipes";
         PersistenceManager.executeQuery(query, new ResultHandler() {
@@ -72,6 +71,7 @@ public class Recipe {
                 }
             }
         });
+
         ObservableList<Recipe> ret = FXCollections.observableArrayList(all.values());
         Collections.sort(ret, new Comparator<Recipe>() {
             @Override

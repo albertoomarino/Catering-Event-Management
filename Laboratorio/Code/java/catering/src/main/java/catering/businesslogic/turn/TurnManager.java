@@ -16,5 +16,4 @@ public class TurnManager {
     public static ArrayList<Turn> getTurnBoard() {
         return Turn.getTurnBoard();
     }
-
 }

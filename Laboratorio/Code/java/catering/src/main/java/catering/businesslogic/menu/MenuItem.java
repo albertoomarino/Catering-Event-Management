@@ -66,7 +66,6 @@ public class MenuItem {
 
 
     // STATIC METHODS FOR PERSISTENCE
-
     public static void saveAllNewItems(int menuid, int sectionid, List<MenuItem> items) {
         String itemInsert = "INSERT INTO catering.MenuItems (menu_id, section_id, description, recipe_id, position) VALUES (?, ?, ?, ?, ?);";
         PersistenceManager.executeBatchUpdate(itemInsert, items.size(), new BatchUpdateHandler() {
@@ -88,11 +87,8 @@ public class MenuItem {
 
     public static void saveNewItem(int menuid, int sectionid, MenuItem mi, int pos) {
         String itemInsert = "INSERT INTO catering.MenuItems (menu_id, section_id, description, recipe_id, position) VALUES (" +
-                menuid +
-                ", " +
-                sectionid +
-                ", " +
-                "'" + PersistenceManager.escapeString(mi.description) + "', " +
+                menuid + ", " +
+                sectionid + ", " + "'" + PersistenceManager.escapeString(mi.description) + "', " +
                 +mi.itemRecipe.getId() + ", " +
                 +pos + ");";
         PersistenceManager.executeUpdate(itemInsert);
@@ -103,10 +99,7 @@ public class MenuItem {
     public static ObservableList<MenuItem> loadItemsFor(int menu_id, int sec_id) {
         ObservableList<MenuItem> result = FXCollections.observableArrayList();
         ArrayList<Integer> recids = new ArrayList<>();
-        String query = "SELECT * FROM MenuItems WHERE menu_id = " + menu_id +
-                " AND " +
-                "section_id = " + sec_id +
-                " ORDER BY position";
+        String query = "SELECT * FROM MenuItems WHERE menu_id = " + menu_id + " AND " + "section_id = " + sec_id + " ORDER BY position";
         PersistenceManager.executeQuery(query, new ResultHandler() {
             @Override
             public void handle(ResultSet rs) throws SQLException {
@@ -117,7 +110,7 @@ public class MenuItem {
             }
         });
 
-        // carico qui le ricette perché non posso innestare due connessioni al DB
+        // Carico qui le ricette perché non posso innestare due connessioni al DB
         for (int i = 0; i < result.size(); i++) {
             result.get(i).itemRecipe = Recipe.loadRecipeById(recids.get(i));
         }
@@ -126,14 +119,12 @@ public class MenuItem {
     }
 
     public static void saveSection(int sec_id, MenuItem mi) {
-        String upd = "UPDATE MenuItems SET section_id = " + sec_id +
-                " WHERE id = " + mi.id;
+        String upd = "UPDATE MenuItems SET section_id = " + sec_id + " WHERE id = " + mi.id;
         PersistenceManager.executeUpdate(upd);
     }
 
     public static void saveDescription(MenuItem mi) {
-        String upd = "UPDATE MenuItems SET description = '" + PersistenceManager.escapeString(mi.getDescription()) +
-                "' WHERE id = " + mi.id;
+        String upd = "UPDATE MenuItems SET description = '" + PersistenceManager.escapeString(mi.getDescription()) + "' WHERE id = " + mi.id;
         PersistenceManager.executeUpdate(upd);
     }
 

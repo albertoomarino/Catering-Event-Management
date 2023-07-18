@@ -1,3 +1,4 @@
 java/catering/target/*
 .vscode
+.idea
 .DS_Store

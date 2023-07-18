@@ -14,7 +14,9 @@ public class User {
 
     private static Map<Integer, User> loadedUsers = FXCollections.observableHashMap();
 
-    public static enum Role {SERVIZIO, CUOCO, CHEF, ORGANIZZATORE}
+    public static enum Role {
+        SERVIZIO, CUOCO, CHEF, ORGANIZZATORE
+    }
 
     ;
 
@@ -53,7 +55,6 @@ public class User {
     }
 
     // STATIC METHODS FOR PERSISTENCE
-
     public static User loadUserById(int uid) {
         if (loadedUsers.containsKey(uid)) return loadedUsers.get(uid);
 
@@ -66,6 +67,7 @@ public class User {
                 load.username = rs.getString("username");
             }
         });
+
         if (load.id > 0) {
             loadedUsers.put(load.id, load);
             String roleQuery = "SELECT * FROM UserRoles WHERE user_id=" + load.id;
@@ -102,6 +104,7 @@ public class User {
                 u.username = rs.getString("username");
             }
         });
+
         if (u.id > 0) {
             loadedUsers.put(u.id, u);
             String roleQuery = "SELECT * FROM UserRoles WHERE user_id=" + u.id;

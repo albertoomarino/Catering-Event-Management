@@ -101,7 +101,12 @@ public class Turn {
     }
 
     public String toString() {
-        return "data: " + date + " location: " + location + " orario: " + time + " completo: " + complete + " cook: "
-                + cook + " compito: " + task + " cuoco disponibile: " + cookAvailable;
+        return "data: " + date
+                + " location: " + location
+                + " orario: " + time
+                + " completo: " + complete
+                + " cook: " + cook
+                + " compito: " + task
+                + " cuoco disponibile: " + cookAvailable;
     }
 }

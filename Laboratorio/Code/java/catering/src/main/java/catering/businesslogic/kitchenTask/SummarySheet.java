@@ -107,7 +107,6 @@ public class SummarySheet {
         }
     }
 
-
     public boolean isHolder(User u) {
         return u.getId() == this.holderChef.getId();
     }
@@ -115,25 +114,32 @@ public class SummarySheet {
     public Task addTask(Recipe rec, SummarySheet sumSh, boolean prep, Turn turn) {
         Task task = new Task(rec, sumSh, turn);
         tasks.add(task);
-        //sumSh.getTasks().add(task);
+        // sumSh.getTasks().add(task);
         if (prep)
             rec.addPreparation(true);
         return task;
     }
-
 
     public void printSumSh2() {
         System.out.println(this.toStringg());
     }
 
     public String toStringg() {
-        return "Id: " + this.getId() + "\nchef titolare: " + holderChef.getUserName() + "\nservizio: " + this.service.toString()
-                + "\ncompiti: [" + tasks.get(0).toString() + "ricetta: " + tasks.get(0).getRecipe() + " " + tasks.get(0).getTurn()
-                + " " + tasks.get(1).getCook().getUserName() + "]" +
-                "\n[" + tasks.get(1).toString() + "ricetta: " + tasks.get(1).getRecipe() + " " + tasks.get(1).getTurn()
-                + " cuoco: " + tasks.get(1).getCook().getUserName() + "]" +
-                "\n[" + tasks.get(2).toString() + "ricetta: " + tasks.get(2).getRecipe() + " " + tasks.get(2).getTurn()
-                + " cuoco: " + tasks.get(1).getCook().getUserName() + "]";
+        return "Id: " + this.getId()
+                + "\nchef titolare: " + holderChef.getUserName()
+                + "\nservizio: " + this.service.toString()
+                + "\ncompiti: [" + tasks.get(0).toString()
+                    + "ricetta: " + tasks.get(0).getRecipe()
+                    + " " + tasks.get(0).getTurn()
+                    + " " + tasks.get(1).getCook().getUserName() + "]"
+                + "\n[" + tasks.get(1).toString()
+                    + "ricetta: " + tasks.get(1).getRecipe()
+                    + " " + tasks.get(1).getTurn()
+                    + " cuoco: " + tasks.get(1).getCook().getUserName() + "]"
+                + "\n[" + tasks.get(2).toString()
+                    + "ricetta: " + tasks.get(2).getRecipe()
+                    + " " + tasks.get(2).getTurn()
+                    + " cuoco: " + tasks.get(1).getCook().getUserName() + "]";
     }
 
     public void printSumSh() {
@@ -141,7 +147,9 @@ public class SummarySheet {
     }
 
     public String toString() {
-        return "Id: " + this.getId() + "\nchef titolare: " + holderChef.getUserName() + "\nservizio: " + this.service.toString()
+        return "Id: " + this.getId()
+                + "\nchef titolare: " + holderChef.getUserName()
+                + "\nservizio: " + this.service.toString()
                 + "\ncompiti: " + tasks.toString();
     }
 

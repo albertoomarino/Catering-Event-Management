@@ -23,8 +23,13 @@ public class Task {
     private int position;
 
     public static void modifyChange(Task task, int cook, double time, int turn, int recipe, int quantity, int portion) {
-        String upd = "UPDATE `tasks` SET `quantity` = " + quantity + ", `portion` = " + portion + ", `runningTime` = " + time +
-                ", `cook` = " + cook + ", `turn` = " + turn + ", `recipe` = " + recipe + " WHERE `id` = " + task.getId();
+        String upd = "UPDATE `tasks` SET `quantity` = " + quantity
+                + ", `portion` = " + portion
+                + ", `runningTime` = " + time
+                + ", `cook` = " + cook
+                + ", `turn` = " + turn
+                + ", `recipe` = " + recipe
+                + " WHERE `id` = " + task.getId();
         PersistenceManager.executeUpdate(upd);
     }
 
@@ -52,23 +57,29 @@ public class Task {
     }
 
     public Task addTaskInfo(int quantity, int portion, double time) {
-        if (quantity != 0)
+        if (quantity != 0) {
             this.quantity = quantity;
-        else
+        } else {
             this.portion = portion;
+        }
         this.runningTime = time;
         return this;
     }
 
     public String toString() {
-        return "(nome ricetta: " + recipe.getName() + ") (è una preparazione? " + recipe.getPreparation() + ") (location turno: "
-                + turn.getLocation() + ")\n";
+        return "(nome ricetta: " + recipe.getName()
+                + ") (è una preparazione? " + recipe.getPreparation()
+                + ") (location turno: " + turn.getLocation() + ")\n";
     }
 
     public static String toStringg(Task task) {
-        return "INFO TASK id: " + task.getId() + ", quantità: " + task.getQuantity() + ", porzione: " + task.getPortion() +
-                ", cuoco: " + task.getCook().getUserName() + ", tempo esecuzione: " + task.getRunningTime() +
-                ", location turno: " + task.getTurn().getLocation() + ", ricetta: " + task.getRecipe().getName();
+        return "INFO TASK id: " + task.getId()
+                + ", quantità: " + task.getQuantity()
+                + ", porzione: " + task.getPortion()
+                + ", cuoco: " + task.getCook().getUserName()
+                + ", tempo esecuzione: " + task.getRunningTime()
+                + ", location turno: " + task.getTurn().getLocation()
+                + ", ricetta: " + task.getRecipe().getName();
     }
 
     public int getId() {
@@ -173,11 +184,13 @@ public class Task {
     }
 
     public static void saveTaskInfo(Task task, int quantity, int portion, double time) {
-        String upd = "UPDATE `tasks` SET `quantity` = " + quantity + ", `portion` = " + portion + ", `runningTime` = " + time +
-                " WHERE `id` = " + task.getId();
+        String upd = "UPDATE `tasks` SET `quantity` = " + quantity
+                + ", `portion` = " + portion
+                + ", `runningTime` = " + time
+                + " WHERE `id` = " + task.getId();
         PersistenceManager.executeUpdate(upd);
 
-        /*String upd = "UPDATE tasks SET quantity = ? , portion = ? , runningTime =  ? , WHERE id = ?";
+        /* String upd = "UPDATE tasks SET quantity = ? , portion = ? , runningTime =  ? , WHERE id = ?";
         int[] result = PersistenceManager.executeBatchUpdate(upd, 1, new BatchUpdateHandler() {
             @Override
             public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
@@ -191,9 +204,9 @@ public class Task {
 
             }
 
-        });*/
+        }); */
 
-        /*String upd = "UPDATE tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
+        /* String upd = "UPDATE tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/catering?serverTimezone=UTC", "root", "")) {
             // Creazione del prepared statement
             PreparedStatement statement = connection.prepareStatement(upd);
@@ -207,7 +220,8 @@ public class Task {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        /*String query = "UPDATE catering.tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
+
+        String query = "UPDATE catering.tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
         int[] result = PersistenceManager.executeBatchUpdate(query, 1, new BatchUpdateHandler() {
             @Override
             public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
@@ -220,6 +234,6 @@ public class Task {
             public void handleGeneratedIds(ResultSet rs, int count) throws SQLException {
 
             }
-        });*/
+        }); */
     }
 }

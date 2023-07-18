@@ -44,7 +44,6 @@ public class PersistenceManager {
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
-
     }
 
     public static int[] executeBatchUpdate(String parametrizedQuery, int itemNumber, BatchUpdateHandler handler) {
@@ -64,11 +63,9 @@ public class PersistenceManager {
                 handler.handleGeneratedIds(keys, count);
                 count++;
             }
-
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
-
         return result;
     }
 
@@ -88,7 +85,6 @@ public class PersistenceManager {
         }
         return result;
     }
-
     public static int getLastId() {
         return lastId;
     }
