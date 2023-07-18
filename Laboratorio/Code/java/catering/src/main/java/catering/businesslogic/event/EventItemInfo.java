@@ -1,5 +1,3 @@
 package catering.businesslogic.event;
 
-public interface EventItemInfo {
-
-}
+public interface EventItemInfo {}

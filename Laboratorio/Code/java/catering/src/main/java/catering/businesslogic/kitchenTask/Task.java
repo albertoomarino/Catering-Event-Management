@@ -189,51 +189,5 @@ public class Task {
                 + ", `runningTime` = " + time
                 + " WHERE `id` = " + task.getId();
         PersistenceManager.executeUpdate(upd);
-
-        /* String upd = "UPDATE tasks SET quantity = ? , portion = ? , runningTime =  ? , WHERE id = ?";
-        int[] result = PersistenceManager.executeBatchUpdate(upd, 1, new BatchUpdateHandler() {
-            @Override
-            public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
-                ps.setInt(1, quantity);
-                ps.setInt(2, portion);
-                ps.setDouble(3, time);
-                ps.setInt(4, task.getId());
-            }
-            @Override
-            public void handleGeneratedIds(ResultSet rs, int count) throws SQLException {
-
-            }
-
-        }); */
-
-        /* String upd = "UPDATE tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/catering?serverTimezone=UTC", "root", "")) {
-            // Creazione del prepared statement
-            PreparedStatement statement = connection.prepareStatement(upd);
-            // Impostazione dei valori dei parametri
-            statement.setInt(1, quantity);
-            statement.setInt(2, portion);
-            statement.setDouble(3, time);
-            statement.setInt(4, task.getId());
-            // Esecuzione della query di aggiornamento
-            statement.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        String query = "UPDATE catering.tasks SET quantity = ?, portion = ?, runningTime = ? WHERE id = ?";
-        int[] result = PersistenceManager.executeBatchUpdate(query, 1, new BatchUpdateHandler() {
-            @Override
-            public void handleBatchItem(PreparedStatement ps, int batchCount) throws SQLException {
-                ps.setInt(1, quantity);
-                ps.setInt(2, portion);
-                ps.setDouble(3, time);
-                ps.setInt(4, task.getId());
-            }
-            @Override
-            public void handleGeneratedIds(ResultSet rs, int count) throws SQLException {
-
-            }
-        }); */
     }
 }

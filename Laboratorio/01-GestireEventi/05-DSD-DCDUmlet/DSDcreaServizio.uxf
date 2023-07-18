@@ -419,7 +419,7 @@ throw UseCaseLogicException</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>462</x>
+      <x>511</x>
       <y>0</y>
       <w>238</w>
       <h>28</h>

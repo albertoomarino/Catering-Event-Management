@@ -6,9 +6,11 @@ import catering.businesslogic.event.ServiceInfo;
 import catering.businesslogic.kitchenTask.KitchenTaskException;
 import catering.businesslogic.kitchenTask.SummarySheet;
 
+// Test per l'estensione 1b.1) deleteSummarySheet
 public class TestCatERing1b {
     public static void main(String[] args) {
         try {
+            // Simulazione del login di un utente di nome "Lidia"
             System.out.println("TEST FAKE LOGIN");
             CatERing.getInstance().getUserManager().fakeLogin("Lidia");
             System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
@@ -19,6 +21,7 @@ public class TestCatERing1b {
             System.out.println();
             System.out.println("AGGIUNTO SUMMARY SHEET CON ID: " + sumSh.getId());
 
+            // 1b.1) deleteSummarySheet
             System.out.println("\nTEST DELETE SUMMARY SHEET");
             SummarySheet sumShDel = CatERing.getInstance().getKitchenTaskManager().deleteSummarySheet(sumSh);
             sumShDel.printSumSh();

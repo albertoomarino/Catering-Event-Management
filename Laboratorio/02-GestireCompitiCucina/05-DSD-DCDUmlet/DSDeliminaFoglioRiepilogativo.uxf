@@ -196,7 +196,7 @@ throw KitchenTaskException</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>588</x>
+      <x>525</x>
       <y>14</y>
       <w>238</w>
       <h>28</h>

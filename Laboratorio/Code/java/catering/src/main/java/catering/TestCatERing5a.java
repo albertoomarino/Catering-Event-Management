@@ -9,13 +9,16 @@ import catering.businesslogic.recipe.Recipe;
 import catering.businesslogic.turn.Turn;
 import catering.businesslogic.user.User;
 
+// Test per l'estensione 5a.1) changeTask
 public class TestCatERing5a {
     public static void main(String[] args) {
         try {
+            // Simulazione del login di un utente di nome "Lidia"
             System.out.println("TEST FAKE LOGIN");
             CatERing.getInstance().getUserManager().fakeLogin("Lidia");
             System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
 
+            // 5a.1) changeTask
             ServiceInfo ser = ServiceInfo.loadAllServiceInfo(2);
             SummarySheet sumSh = CatERing.getInstance().getKitchenTaskManager().createSummarySheet(ser);
             sumSh.printSumSh();
