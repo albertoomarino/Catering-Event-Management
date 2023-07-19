@@ -84,13 +84,13 @@ public class KitchenTaskManager {
         ArrayList<Turn> turns;
         turns = TurnManager.getTurnBoard();
         for (Turn t : turns) {
-            System.out.println("DATA:" + t.getDate()
-                    + " LUOGO:" + t.getLocation()
-                    + " ORARIO:" + t.getTime()
-                    + " COMPLETO:" + t.isComplete()
-                    + " CUOCO:" + t.getCook()
-                    + " COMPITO:" + t.getTask()
-                    + " CUOCO DISPONIBILE:" + t.isCookAvailable());
+            System.out.println("DATA: " + t.getDate()
+                    + " LUOGO: " + t.getLocation()
+                    + " ORARIO: " + t.getTime()
+                    + " COMPLETO: " + t.isComplete()
+                    + " CUOCO: " + t.getCook()
+                    + " COMPITO: " + t.getTask()
+                    + " CUOCO DISPONIBILE: " + t.isCookAvailable());
         }
     }
 

@@ -1,11 +1,3 @@
-# Ignora la cartella "target" all'interno di "java/catering"
 java/catering/target/
-
-# Ignora la cartella ".vscode"
-.vscode/
-
-# Ignora la cartella ".idea"
-.idea/
-
-# Ignora il file ".DS_Store" (presente principalmente su sistemi macOS)
+.vscode
 .DS_Store

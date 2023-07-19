@@ -201,6 +201,7 @@ public class MenuManager {
         Section sec = null;
         try {
             sec = currentMenu.getSectionForItem(mi);
+
         } catch (IllegalArgumentException ex) {
             // se il menu mi dice che l'item non è valido
             // allora vuol dire che esso non appartiene al menu

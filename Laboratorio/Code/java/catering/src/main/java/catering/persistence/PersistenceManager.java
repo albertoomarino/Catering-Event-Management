@@ -27,6 +27,7 @@ public class PersistenceManager {
                 String name = rs.getString("username");
                 System.out.println(name + " ha id = " + id);
             }
+
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
@@ -39,6 +40,7 @@ public class PersistenceManager {
             while (rs.next()) {
                 handler.handle(rs);
             }
+
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
@@ -61,6 +63,7 @@ public class PersistenceManager {
                 handler.handleGeneratedIds(keys, count);
                 count++;
             }
+
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
@@ -78,6 +81,7 @@ public class PersistenceManager {
             } else {
                 lastId = 0;
             }
+
         } catch (SQLException ex) {
             ex.printStackTrace();
         }

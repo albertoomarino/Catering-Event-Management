@@ -43,6 +43,7 @@ public class MenuList {
                 Menu m = CatERing.getInstance().getMenuManager().createMenu(result.get());
                 menuListItems.add(m);
                 menuManagementController.showCurrentMenu();
+
             } catch (UseCaseLogicException ex) {
                 ex.printStackTrace();
             }
@@ -83,6 +84,7 @@ public class MenuList {
             Menu m = menuList.getSelectionModel().getSelectedItem();
             CatERing.getInstance().getMenuManager().deleteMenu(m);
             menuListItems.remove(m);
+
         } catch (UseCaseLogicException | MenuException ex) {
             ex.printStackTrace();
         }
@@ -94,6 +96,7 @@ public class MenuList {
             Menu m = menuList.getSelectionModel().getSelectedItem();
             CatERing.getInstance().getMenuManager().chooseMenu(m);
             menuManagementController.showCurrentMenu();
+
         } catch (UseCaseLogicException | MenuException ex) {
             ex.printStackTrace();
         }
@@ -106,6 +109,7 @@ public class MenuList {
             Menu copia = CatERing.getInstance().getMenuManager().copyMenu(m);
             menuListItems.add(copia);
             menuManagementController.showCurrentMenu();
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }

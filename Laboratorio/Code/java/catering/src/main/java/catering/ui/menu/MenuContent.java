@@ -158,6 +158,7 @@ public class MenuContent {
         Menu m = CatERing.getInstance().getMenuManager().getCurrentMenu();
         try {
             CatERing.getInstance().getMenuManager().publish();
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }
@@ -174,6 +175,7 @@ public class MenuContent {
         if (result.isPresent()) {
             try {
                 CatERing.getInstance().getMenuManager().defineSection(result.get());
+
             } catch (UseCaseLogicException ex) {
                 ex.printStackTrace();
             }
@@ -216,6 +218,7 @@ public class MenuContent {
                     }
                 }
             }
+
         } catch (IOException | UseCaseLogicException ex) {
             ex.printStackTrace();
         }
@@ -242,6 +245,7 @@ public class MenuContent {
 
 
             stage.showAndWait();
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -288,6 +292,7 @@ public class MenuContent {
 
 
             stage.showAndWait();
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -304,6 +309,7 @@ public class MenuContent {
             try {
                 CatERing.getInstance().getMenuManager().changeTitle(result.get());
                 this.titleLabel.setText(result.get());
+
             } catch (UseCaseLogicException ex) {
                 ex.printStackTrace();
             }
@@ -330,6 +336,7 @@ public class MenuContent {
         }
         try {
             CatERing.getInstance().getMenuManager().deleteSection(sec, deleteItems);
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }
@@ -347,6 +354,7 @@ public class MenuContent {
             try {
                 CatERing.getInstance().getMenuManager().changeSectionName(sec, result.get());
                 sectionList.refresh();
+
             } catch (UseCaseLogicException ex) {
                 ex.printStackTrace();
             }
@@ -371,6 +379,7 @@ public class MenuContent {
             CatERing.getInstance().getMenuManager().moveSection(sec, newpos);
             sectionList.refresh();
             sectionList.getSelectionModel().select(newpos);
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }
@@ -416,10 +425,12 @@ public class MenuContent {
                         CatERing.getInstance().getMenuManager().assignItemToSection(mi, s);
                         itemsList.refresh();
                     }
+
                 } catch (UseCaseLogicException ex) {
                     ex.printStackTrace();
                 }
             }
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -436,6 +447,7 @@ public class MenuContent {
             try {
                 CatERing.getInstance().getMenuManager().editMenuItemDescription(mi, result.get());
                 itemsList.refresh();
+
             } catch (UseCaseLogicException ex) {
                 ex.printStackTrace();
             }
@@ -447,6 +459,7 @@ public class MenuContent {
         try {
             CatERing.getInstance().getMenuManager().deleteItem(mi);
             itemsList.refresh();
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }
@@ -464,6 +477,7 @@ public class MenuContent {
             }
             itemsList.refresh();
             itemsList.getSelectionModel().select(newpos);
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }

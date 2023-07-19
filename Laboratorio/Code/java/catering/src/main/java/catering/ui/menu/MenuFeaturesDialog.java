@@ -104,6 +104,7 @@ public class MenuFeaturesDialog {
         }
         try {
             CatERing.getInstance().getMenuManager().setAdditionalFeatures(features, vals);
+
         } catch (UseCaseLogicException ex) {
             ex.printStackTrace();
         }

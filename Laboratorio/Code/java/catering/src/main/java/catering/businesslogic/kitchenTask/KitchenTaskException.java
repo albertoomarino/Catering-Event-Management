@@ -1,3 +1,5 @@
 package catering.businesslogic.kitchenTask;
 
-public class KitchenTaskException extends Exception {}
+public class KitchenTaskException extends Exception {
+
+}
