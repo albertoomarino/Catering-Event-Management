@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="131e04c6-a4c9-4c0b-8352-0e50d7f81656" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../01-GestireEventi/01-UCDettagliato.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../01-GestireEventi/01-UCDettagliato.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/kitchenTask/KitchenTaskException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/kitchenTask/KitchenTaskException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/kitchenTask/KitchenTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/kitchenTask/KitchenTaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/menu/MenuManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/businesslogic/menu/MenuManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/PersistenceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/persistence/PersistenceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuFeaturesDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuFeaturesDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/ui/menu/MenuManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCatERing5a.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/catering/src/main/java/catering/TestCatERing5a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Code" />
@@ -83,6 +76,9 @@
       <workItem from="1689750362339" duration="596000" />
       <workItem from="1689751316320" duration="67000" />
       <workItem from="1689751407992" duration="18000" />
+      <workItem from="1689751489809" duration="59000" />
+      <workItem from="1689751870292" duration="84000" />
+      <workItem from="1689752325195" duration="616000" />
     </task>
     <servers />
   </component>

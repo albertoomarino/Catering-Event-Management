@@ -19,7 +19,6 @@ public class TestCatERing5b {
             CatERing.getInstance().getUserManager().fakeLogin("Lidia");
             System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
 
-            // 5b.1) deleteTask
             ServiceInfo ser = ServiceInfo.loadAllServiceInfo(2);
             SummarySheet sumSh = CatERing.getInstance().getKitchenTaskManager().createSummarySheet(ser);
             sumSh.printSumSh();
@@ -33,6 +32,7 @@ public class TestCatERing5b {
             User cook = User.loadUserById(5);
             Task task = CatERing.getInstance().getKitchenTaskManager().assignTask(task1, cook);
 
+            // 5b.1) deleteTask
             System.out.println("\nTEST DELETE TASK");
             Task taskDel = CatERing.getInstance().getKitchenTaskManager().deleteTask(task);
             System.out.println();

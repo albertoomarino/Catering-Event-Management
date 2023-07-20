@@ -18,7 +18,6 @@ public class TestCatERing5a {
             CatERing.getInstance().getUserManager().fakeLogin("Lidia");
             System.out.println(CatERing.getInstance().getUserManager().getCurrentUser());
 
-            // 5a.1) changeTask
             ServiceInfo ser = ServiceInfo.loadAllServiceInfo(2);
             SummarySheet sumSh = CatERing.getInstance().getKitchenTaskManager().createSummarySheet(ser);
             sumSh.printSumSh();
@@ -32,6 +31,7 @@ public class TestCatERing5a {
             User cook = User.loadUserById(5);
             Task task = CatERing.getInstance().getKitchenTaskManager().assignTask(task1, cook);
 
+            // 5a.1) changeTask
             System.out.println("\nTEST MODIFICA TASK");
             Task taskMod = CatERing.getInstance().getKitchenTaskManager().changeTask(task1, cook, 15.34, turn, rec1, 0, 18);
             System.out.println();
