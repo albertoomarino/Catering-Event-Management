@@ -1,4 +1,4 @@
-# Sviluppo delle Applicazioni Software
+# SAS - Sviluppo delle Applicazioni Software
 
 Il progetto di lavoratorio consiste in una esercitazione articolata in cui si simula, per quanto possibile, una parte del processo di analisi, progettazione e sviluppo di un applicativo articolato con la metodologia UP (adattata alle esigenze didattiche).
 
