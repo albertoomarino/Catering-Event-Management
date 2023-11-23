@@ -18,6 +18,6 @@ The files in the repository have been uploaded as follows:
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/albertoomarino/formal-languages-and-translators/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/albertoomarino/software-application-development/blob/main/LICENSE).
 
 © [Alberto Marino]
