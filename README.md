@@ -1,4 +1,4 @@
-# Software application development
+# Software Application Development
 
 ## Table of Contents
 
