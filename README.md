@@ -14,8 +14,7 @@ Follow the steps below to configure and run the project locally.
 ### 2. Recommended Tools
 
 - [Docker](https://docs.docker.com/engine/install/)
-- [Visual Studio Code](https://code.visualstudio.com/)  
-  With extension: ["Extension Pack for Java"](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+- [Visual Studio Code](https://code.visualstudio.com/) with extension: ["Extension Pack for Java"](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
 To start coding, open the `java/` directory in your IDE.  
 Example in VS Code: `File` → `Open Folder` → select `java`.
@@ -32,11 +31,11 @@ docker compose up -d
 This launches two containers:
 
 - `MySQL`: the actual database service
-- `Adminer`: a web-based UI (available at http://localhost:8080)
+- `Adminer`: a web-based UI (available at `http://localhost:8080`)
 
 After startup:
 
-- Visit Adminer on http://localhost:8080
+- Visit Adminer on `http://localhost:8080`
 - Log in using:
   - System: `MySQL`
   - Server: `mysql`
